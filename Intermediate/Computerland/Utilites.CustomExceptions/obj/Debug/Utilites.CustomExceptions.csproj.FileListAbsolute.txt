@@ -1,0 +1,5 @@
+C:\DEV\Intermediate\Computerland\Utilites.CustomExceptions\bin\Debug\Utilites.CustomExceptions.dll
+C:\DEV\Intermediate\Computerland\Utilites.CustomExceptions\bin\Debug\Utilites.CustomExceptions.pdb
+C:\DEV\Intermediate\Computerland\Utilites.CustomExceptions\obj\Debug\Utilites.CustomExceptions.csprojResolveAssemblyReference.cache
+C:\DEV\Intermediate\Computerland\Utilites.CustomExceptions\obj\Debug\Utilites.CustomExceptions.dll
+C:\DEV\Intermediate\Computerland\Utilites.CustomExceptions\obj\Debug\Utilites.CustomExceptions.pdb

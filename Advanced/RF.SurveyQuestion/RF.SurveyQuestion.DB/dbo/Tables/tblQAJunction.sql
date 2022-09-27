@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[tblQAJunction]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL , 
+    [QuestionId] UNIQUEIDENTIFIER NOT NULL, 
+    [AnswerId] UNIQUEIDENTIFIER NOT NULL, 
+    [IsCorrect] BIT NOT NULL, 
+    CONSTRAINT [PK_tblQAJunction] PRIMARY KEY ([Id]),
+)

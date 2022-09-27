@@ -1,0 +1,8 @@
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.BL\bin\Debug\YoutubeTimer.BL.dll
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.BL\bin\Debug\YoutubeTimer.BL.pdb
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.BL\bin\Debug\YoutubeTimer.CustomExceptions.dll
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.BL\bin\Debug\YoutubeTimer.CustomExceptions.pdb
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.BL\obj\Debug\YoutubeTimer.BL.csprojAssemblyReference.cache
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.BL\obj\Debug\YoutubeTimer.BL.csproj.CopyComplete
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.BL\obj\Debug\YoutubeTimer.BL.dll
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.BL\obj\Debug\YoutubeTimer.BL.pdb

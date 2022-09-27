@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>   </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/carRace.js"></script>
+    
+    <style>
+    
+        div:first-of-type {
+            margin-top: 150px;
+            margin-bottom: 125px;
+        }
+        
+       
+        div {
+           /* height: 150px;*/
+            padding-top: 50px;
+            border-bottom: 2px dashed brown;
+            background-image: url(images/finish.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom -15px left 1225px;
+            
+            
+        }
+    
+        
+        img {
+            /*Position: relative required for animation.*/
+            position: relative;
+            width:  160px;
+            height: 80px;
+        }
+        
+        input {
+            width: 100px;
+            height: 25px;
+        }
+    </style>
+    
+</head>
+
+<body>
+  <input id="reload" type="button" value="Reload">
+   <input id="start" type="button" value="Start Race">
+   <div>
+       <img id="car1" src="images/automobile-160338_640.png" alt="Red Car">
+   </div>
+   
+   <div>
+       <img id="car2" src="images/frankenstein-160358_640.png" alt="Green Car">
+   </div>
+    
+</body>
+
+</html>

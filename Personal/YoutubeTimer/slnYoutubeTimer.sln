@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeTimer.UI", "YoutubeTimer\YoutubeTimer.UI.csproj", "{8112B6F4-4103-443A-ABE2-E3CBEDF59E1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeTimer.BL", "YoutubeTimer.BL\YoutubeTimer.BL.csproj", "{E57C5183-7C14-46A7-9DB2-BB88F99A9524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeTimer.CustomExceptions", "YoutubeTimer.CustomExceptions\YoutubeTimer.CustomExceptions.csproj", "{B615608D-9B7B-4477-BAF2-6E96E4733035}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = YoutubeTimer.BL\\YoutubeTimer.BL.csproj
+		SccProjectName1 = YoutubeTimer.BL
+		SccLocalPath1 = YoutubeTimer.BL
+		SccProjectUniqueName2 = YoutubeTimer.CustomExceptions\\YoutubeTimer.CustomExceptions.csproj
+		SccProjectName2 = YoutubeTimer.CustomExceptions
+		SccLocalPath2 = YoutubeTimer.CustomExceptions
+		SccProjectUniqueName3 = YoutubeTimer\\YoutubeTimer.UI.csproj
+		SccProjectName3 = YoutubeTimer
+		SccLocalPath3 = YoutubeTimer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8112B6F4-4103-443A-ABE2-E3CBEDF59E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8112B6F4-4103-443A-ABE2-E3CBEDF59E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8112B6F4-4103-443A-ABE2-E3CBEDF59E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8112B6F4-4103-443A-ABE2-E3CBEDF59E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57C5183-7C14-46A7-9DB2-BB88F99A9524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57C5183-7C14-46A7-9DB2-BB88F99A9524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57C5183-7C14-46A7-9DB2-BB88F99A9524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57C5183-7C14-46A7-9DB2-BB88F99A9524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B615608D-9B7B-4477-BAF2-6E96E4733035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B615608D-9B7B-4477-BAF2-6E96E4733035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B615608D-9B7B-4477-BAF2-6E96E4733035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B615608D-9B7B-4477-BAF2-6E96E4733035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

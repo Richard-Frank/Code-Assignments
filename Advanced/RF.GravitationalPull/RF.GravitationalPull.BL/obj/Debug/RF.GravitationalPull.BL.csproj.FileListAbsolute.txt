@@ -1,0 +1,6 @@
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull.BL\bin\Debug\RF.GravitationalPull.BL.dll
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull.BL\bin\Debug\RF.GravitationalPull.BL.pdb
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull.BL\obj\Debug\RF.GravitationalPull.BL.csprojAssemblyReference.cache
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull.BL\obj\Debug\RF.GravitationalPull.BL.csproj.CoreCompileInputs.cache
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull.BL\obj\Debug\RF.GravitationalPull.BL.dll
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull.BL\obj\Debug\RF.GravitationalPull.BL.pdb

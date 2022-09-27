@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bd6eb2ea-54fe-4fcd-8cee-423e7dad06f4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49557/Cardgame.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Cardgame.xsd" MetadataType="Schema" ID="3bb438bd-54cb-443e-9456-10f4f8df0fcf" SourceId="1" SourceUrl="http://localhost:49557/Cardgame.svc?xsd=xsd2" />
+    <MetadataFile FileName="Cardgame1.xsd" MetadataType="Schema" ID="9803d389-3342-44de-ae9e-440a4bd9c825" SourceId="1" SourceUrl="http://localhost:49557/Cardgame.svc?xsd=xsd0" />
+    <MetadataFile FileName="Cardgame.wsdl" MetadataType="Wsdl" ID="193fbf0a-d58f-437b-8b3c-214133ad764e" SourceId="1" SourceUrl="http://localhost:49557/Cardgame.svc?wsdl" />
+    <MetadataFile FileName="Cardgame.disco" MetadataType="Disco" ID="17ebe44a-cf64-4b79-9470-79a75e8444d6" SourceId="1" SourceUrl="http://localhost:49557/Cardgame.svc?disco" />
+    <MetadataFile FileName="Cardgame2.xsd" MetadataType="Schema" ID="334d6583-ce87-4c70-8e46-932cb375870f" SourceId="1" SourceUrl="http://localhost:49557/Cardgame.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

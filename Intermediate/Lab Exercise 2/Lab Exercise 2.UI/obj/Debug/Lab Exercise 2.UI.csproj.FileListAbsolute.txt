@@ -1,0 +1,9 @@
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\bin\Debug\Lab Exercise 2.UI.exe.config
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\bin\Debug\Lab Exercise 2.UI.exe
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\bin\Debug\Lab Exercise 2.UI.pdb
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\obj\Debug\Lab Exercise 2.UI.csprojResolveAssemblyReference.cache
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\obj\Debug\Lab_Exercise_2.UI.frmArrays.resources
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\obj\Debug\Lab_Exercise_2.UI.Properties.Resources.resources
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\obj\Debug\Lab Exercise 2.UI.csproj.GenerateResource.Cache
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\obj\Debug\Lab Exercise 2.UI.exe
+C:\DEV\Intermediate\Lab Exercise 2\Lab Exercise 2.UI\obj\Debug\Lab Exercise 2.UI.pdb

@@ -1,0 +1,47 @@
+﻿<Window x:Class="Spotlight.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spotlight"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="625">
+    <Window.Resources>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingPath Duration="0:0:2" Source="X" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Light" RepeatBehavior="Forever">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M484.0545,51.6595 C484.0545,152.89882 359.49161,234.9695 205.8355,234.9695 C52.179389,234.9695 -72.3835,152.89882 -72.3835,51.6595 C-72.3835,-49.579817 52.179389,-131.6505 205.8355,-131.6505 C359.49161,-131.6505 484.0545,-49.579817 484.0545,51.6595 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            <DoubleAnimationUsingPath Duration="0:0:2" Source="Y" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Light" RepeatBehavior="Forever">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M484.0545,51.6595 C484.0545,152.89882 359.49161,234.9695 205.8355,234.9695 C52.179389,234.9695 -72.3835,152.89882 -72.3835,51.6595 C-72.3835,-49.579817 52.179389,-131.6505 205.8355,-131.6505 C359.49161,-131.6505 484.0545,-49.579817 484.0545,51.6595 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Background="Black">
+        <Ellipse x:Name="Light" HorizontalAlignment="Left" Height="64.073" Margin="68.082,125.975,0,0" Stroke="Black" VerticalAlignment="Top" Width="65.675" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+    </Grid>
+</Window>

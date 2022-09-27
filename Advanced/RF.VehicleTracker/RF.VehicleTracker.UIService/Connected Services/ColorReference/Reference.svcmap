@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2f1222ec-6f00-4b21-8d6f-967dc3358734" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58096/Color.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Color.disco" MetadataType="Disco" ID="2798088b-ba56-4c10-89ed-d425a17c88a4" SourceId="1" SourceUrl="http://localhost:58096/Color.svc?disco" />
+    <MetadataFile FileName="Color.wsdl" MetadataType="Wsdl" ID="9a57c3d1-9d23-4fc0-836c-d119564ac71c" SourceId="1" SourceUrl="http://localhost:58096/Color.svc?wsdl" />
+    <MetadataFile FileName="Color1.xsd" MetadataType="Schema" ID="58e66644-45af-4e32-bcfe-1ee331c67778" SourceId="1" SourceUrl="http://localhost:58096/Color.svc?xsd=xsd2" />
+    <MetadataFile FileName="Color2.xsd" MetadataType="Schema" ID="fdfcfbd6-5d02-4758-97e9-dcd9bac40688" SourceId="1" SourceUrl="http://localhost:58096/Color.svc?xsd=xsd1" />
+    <MetadataFile FileName="Color3.xsd" MetadataType="Schema" ID="0143dfed-f33d-4728-ab28-383dce47e28e" SourceId="1" SourceUrl="http://localhost:58096/Color.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.GravitationalPull", "RF.GravitationalPull\RF.GravitationalPull.csproj", "{F277358E-2109-4813-9A62-DC4B6BAE597B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.GravitationalPull.BL", "RF.GravitationalPull.BL\RF.GravitationalPull.BL.csproj", "{2B0C5250-BFF4-4716-8A6F-1196201A55B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.GravitationalPull.BL.Test", "Rf.GravitationalPull.BL.Test\RF.GravitationalPull.BL.Test.csproj", "{A96DA599-4B0C-4DDF-8510-8F17E13AAA0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F277358E-2109-4813-9A62-DC4B6BAE597B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F277358E-2109-4813-9A62-DC4B6BAE597B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F277358E-2109-4813-9A62-DC4B6BAE597B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F277358E-2109-4813-9A62-DC4B6BAE597B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B0C5250-BFF4-4716-8A6F-1196201A55B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0C5250-BFF4-4716-8A6F-1196201A55B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0C5250-BFF4-4716-8A6F-1196201A55B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0C5250-BFF4-4716-8A6F-1196201A55B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96DA599-4B0C-4DDF-8510-8F17E13AAA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96DA599-4B0C-4DDF-8510-8F17E13AAA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96DA599-4B0C-4DDF-8510-8F17E13AAA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96DA599-4B0C-4DDF-8510-8F17E13AAA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7F229A7-A337-4A79-9CED-07444BCA9FD1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RF.GravitationalPull\\RF.GravitationalPull.csproj
+		SccProjectName1 = RF.GravitationalPull
+		SccLocalPath1 = RF.GravitationalPull
+		SccProjectUniqueName2 = RF.GravitationalPull.BL\\RF.GravitationalPull.BL.csproj
+		SccProjectName2 = RF.GravitationalPull.BL
+		SccLocalPath2 = RF.GravitationalPull.BL
+		SccProjectUniqueName3 = Rf.GravitationalPull.BL.Test\\Rf.GravitationalPull.BL.Test.csproj
+		SccProjectName3 = Rf.GravitationalPull.BL.Test
+		SccLocalPath3 = Rf.GravitationalPull.BL.Test
+	EndGlobalSection
+EndGlobal

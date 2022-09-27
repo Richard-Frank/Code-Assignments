@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Sorting</title>
+
+    <script>
+        let studentActivity;
+        let studentPermission;
+        //let studentGroup;
+
+        //studentActivity = window.confirm("Does the student have after school activities?");
+        //studentPermission = window.confirm("Does the student have their parent's permission?")
+        /*
+        if(studentActivity === false)
+        {
+            studentGroup = "A";
+        }
+        else if(studentActivity === true && studentPermission == true)
+        {
+            studentGroup = "B";
+        }
+        else if(studentActivity === true && studentPermission == false)
+        {
+            studentGroup = "C";
+        }
+        
+        alert("The student is in group " + studentGroup)
+        */
+
+        studentActivity = window.prompt("Does the student have after school activities? Y/N", "")
+        studentActivity = studentActivity.toUpperCase();
+
+
+
+    if(studentActivity === "Y" || studentActivity === "N")
+    {
+        if(studentActivity === "N")
+        {
+            alert("Student is in group A")
+        }
+        else
+        {
+            studentPermission = window.prompt("Does the student have their parent's permission? Y/N", "")
+            studentPermission = studentPermission.toUpperCase();
+            
+            if(studentPermission ==="Y" || studentPermission === "N")
+            {
+                if(studentPermission === "Y")
+                {
+                    alert("Student is in group B")
+                }
+                else
+                {
+                    alert("Student is in group C")
+                }
+            }
+            else
+            {
+                alert("Please enter 'Y' or 'N'")
+            }
+        }
+    }
+    else
+    {
+        alert("Please enter 'Y' or 'N'")
+    }
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

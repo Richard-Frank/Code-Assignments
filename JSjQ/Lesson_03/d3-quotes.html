@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 3: Quote Generator</title>
+
+    <script>
+        
+        let aryQuote = new Array();
+
+        aryQuote[0] = "I think Microsoft named .NET so it wouldn't show up in a Unix directory listing.";
+        aryQuote[1] = "Computer dating is fine, if you're a computer.";
+        aryQuote[2] = "IE is a better browser, for downloading other browsers.";
+        aryQuote[3] = "Difference between a virus and Windows? Viruses rarely fail.";
+        aryQuote[4] = "Any fool can use a computer. Many do.";
+        aryQuote[5] = "Better to run than curse the road.";
+        aryQuote[6] = "I'm not antisocial; I'm just not user friendly.";
+        aryQuote[7] = "Those who can't write programming, write help files.";
+        aryQuote[8] = "Why do Python devs need glasses? Because they can't C#";
+        aryQuote[9] = "It is well known that a vital ingredient of success is not knowing that what you're attempting can't be done."
+        aryQuote[10] = "Why do you go away? So that you can come back. So that you can see the place you came from with new eyes and extra colors. And the people there see you differently, too. Coming back to where you started is not the same as never leaving."
+        aryQuote[11] = "Real stupidity beats artificial intelligence every time."
+        aryQuote[12] = "The whole of life is just like watching a film. Only it's as though you always get in ten minutes after the big picture has started, and no-one will tell you the plot, so you have to work it out all yourself from the clues."
+        aryQuote[13] = "There are times in life when people must know when not to let go. Balloons are designed to teach small children this."
+        aryQuote[14] = "Always be wary of any helpful item that weighs less than its operating manual."
+        aryQuote[15] = "A lie can run round the world before the truth has got its boots on."
+        aryQuote[16] = "If you choose not to decide, you still have made a choice."
+
+        //Math objects
+        /*
+        Math.round() // Rounds a number. 2.5 = 3 | 2.4 = 2
+        Math.floor() // Rounds down. 2.9 = 2 | 7.3 = 7
+        Math.ceil() // Rounds up 2.1 = 3 | 1.4 = 2
+        Math.random() //Gives a number from 0 to less than 1. Always less than 1.
+        */
+        //console.log(Math.random());
+
+        //Generates a random number from 0 to less than 1, multiplies by the array length, and rounds it.
+        let quote = Math.floor(Math.random() * aryQuote.length);
+        //console.log(quote);
+
+        //alert(aryQuote[quote]);
+        alert(aryQuote[Math.floor(Math.random() * aryQuote.length)])
+
+        //Guess a number between 0 and 742 let number = Math.floor(Math.random() * 742)
+        //Guess a number between 1 and 10 let number = Math.floor(Math.random() * 9) +1)
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

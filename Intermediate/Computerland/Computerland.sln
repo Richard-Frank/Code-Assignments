@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computerland.UI", "Computerland.UI\Computerland.UI.csproj", "{D425D256-E869-4FB5-9106-CF952F479874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computerland.BL", "Computerland.BL\Computerland.BL.csproj", "{E51FA7AA-707A-4EED-9618-6030D5585DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computerland.PL.Test", "Computerland.PL.Test\Computerland.PL.Test.csproj", "{6F524C5A-9B09-4225-84B0-F46485DD95C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilites.CustomExceptions", "Utilites.CustomExceptions\Utilites.CustomExceptions.csproj", "{7D8950FC-A740-40B4-9F3B-4E4399914FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computerland.BL.Test", "Computerland.BL.Test\Computerland.BL.Test.csproj", "{E78598B1-787C-4CA3-A295-027B2D73D4BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computerland.Interfaces", "Computerland.Interfaces\Computerland.Interfaces.csproj", "{69E93AB2-9FD5-4FDB-901A-FEA63A8A1E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computerland.PL", "Computerland.PL\Computerland.PL.csproj", "{954C8596-34D1-4610-B387-AF7BC28D924A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Computerland.UI\\Computerland.UI.csproj
+		SccProjectName1 = Computerland.UI
+		SccLocalPath1 = Computerland.UI
+		SccProjectUniqueName2 = Computerland.BL\\Computerland.BL.csproj
+		SccProjectName2 = Computerland.BL
+		SccLocalPath2 = Computerland.BL
+		SccProjectUniqueName3 = Computerland.PL.Test\\Computerland.PL.Test.csproj
+		SccProjectName3 = Computerland.PL.Test
+		SccLocalPath3 = Computerland.PL.Test
+		SccProjectUniqueName4 = Utilites.CustomExceptions\\Utilites.CustomExceptions.csproj
+		SccProjectName4 = Utilites.CustomExceptions
+		SccLocalPath4 = Utilites.CustomExceptions
+		SccProjectUniqueName5 = Computerland.BL.Test\\Computerland.BL.Test.csproj
+		SccProjectName5 = Computerland.BL.Test
+		SccLocalPath5 = Computerland.BL.Test
+		SccProjectUniqueName6 = Computerland.Interfaces\\Computerland.Interfaces.csproj
+		SccProjectName6 = Computerland.Interfaces
+		SccLocalPath6 = Computerland.Interfaces
+		SccProjectUniqueName7 = Computerland.PL\\Computerland.PL.csproj
+		SccProjectName7 = Computerland.PL
+		SccLocalPath7 = Computerland.PL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D425D256-E869-4FB5-9106-CF952F479874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D425D256-E869-4FB5-9106-CF952F479874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D425D256-E869-4FB5-9106-CF952F479874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D425D256-E869-4FB5-9106-CF952F479874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E51FA7AA-707A-4EED-9618-6030D5585DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51FA7AA-707A-4EED-9618-6030D5585DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51FA7AA-707A-4EED-9618-6030D5585DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51FA7AA-707A-4EED-9618-6030D5585DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F524C5A-9B09-4225-84B0-F46485DD95C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F524C5A-9B09-4225-84B0-F46485DD95C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F524C5A-9B09-4225-84B0-F46485DD95C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F524C5A-9B09-4225-84B0-F46485DD95C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8950FC-A740-40B4-9F3B-4E4399914FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8950FC-A740-40B4-9F3B-4E4399914FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8950FC-A740-40B4-9F3B-4E4399914FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8950FC-A740-40B4-9F3B-4E4399914FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78598B1-787C-4CA3-A295-027B2D73D4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78598B1-787C-4CA3-A295-027B2D73D4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78598B1-787C-4CA3-A295-027B2D73D4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78598B1-787C-4CA3-A295-027B2D73D4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E93AB2-9FD5-4FDB-901A-FEA63A8A1E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E93AB2-9FD5-4FDB-901A-FEA63A8A1E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E93AB2-9FD5-4FDB-901A-FEA63A8A1E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E93AB2-9FD5-4FDB-901A-FEA63A8A1E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954C8596-34D1-4610-B387-AF7BC28D924A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954C8596-34D1-4610-B387-AF7BC28D924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954C8596-34D1-4610-B387-AF7BC28D924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954C8596-34D1-4610-B387-AF7BC28D924A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

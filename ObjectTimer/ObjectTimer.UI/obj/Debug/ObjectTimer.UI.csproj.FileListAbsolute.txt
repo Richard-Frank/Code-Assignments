@@ -1,0 +1,13 @@
+C:\DEV\ObjectTimer\ObjectTimer.UI\bin\Debug\ObjectTimer.UI.exe.config
+C:\DEV\ObjectTimer\ObjectTimer.UI\bin\Debug\ObjectTimer.UI.exe
+C:\DEV\ObjectTimer\ObjectTimer.UI\bin\Debug\ObjectTimer.UI.pdb
+C:\DEV\ObjectTimer\ObjectTimer.UI\bin\Debug\ObjectTimer.BusinessLayer.dll
+C:\DEV\ObjectTimer\ObjectTimer.UI\bin\Debug\ObjectTimer.BusinessLayer.pdb
+C:\DEV\ObjectTimer\ObjectTimer.UI\obj\Debug\ObjectTimer.UI.csprojResolveAssemblyReference.cache
+C:\DEV\ObjectTimer\ObjectTimer.UI\obj\Debug\ObjectTimer.UI.frmObjectTimer.resources
+C:\DEV\ObjectTimer\ObjectTimer.UI\obj\Debug\ObjectTimer.UI.Properties.Resources.resources
+C:\DEV\ObjectTimer\ObjectTimer.UI\obj\Debug\ObjectTimer.UI.csproj.GenerateResource.Cache
+C:\DEV\ObjectTimer\ObjectTimer.UI\obj\Debug\ObjectTimer.UI.exe
+C:\DEV\ObjectTimer\ObjectTimer.UI\obj\Debug\ObjectTimer.UI.pdb
+C:\DEV\ObjectTimer\ObjectTimer.UI\bin\Debug\ObjectTimer.CustomExceptions.dll
+C:\DEV\ObjectTimer\ObjectTimer.UI\bin\Debug\ObjectTimer.CustomExceptions.pdb

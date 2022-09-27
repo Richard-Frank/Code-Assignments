@@ -1,0 +1,7 @@
+C:\DEV\Banking\Banking.BL\bin\Debug\Banking.BL.dll
+C:\DEV\Banking\Banking.BL\bin\Debug\Banking.BL.pdb
+C:\DEV\Banking\Banking.BL\obj\Debug\Banking.BL.dll
+C:\DEV\Banking\Banking.BL\obj\Debug\Banking.BL.pdb
+C:\DEV\Banking\Banking.BL\obj\Debug\Banking.BL.csprojResolveAssemblyReference.cache
+C:\DEV\Banking\Banking.BL\bin\Debug\Banking.PL.dll
+C:\DEV\Banking\Banking.BL\bin\Debug\Banking.PL.pdb

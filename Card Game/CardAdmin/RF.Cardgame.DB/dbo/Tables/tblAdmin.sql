@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[tblAdmin]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Name] VARCHAR(45) NOT NULL, 
+    [Password] VARCHAR(45) NOT NULL
+)

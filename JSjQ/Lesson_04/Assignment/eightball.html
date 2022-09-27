@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/eightball.js"></script>
+    <title>Magic 8 Ball</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Ask The Magic Eightball!</h1>
+        </header>
+
+        <div id="inputspace">
+
+        <h2>What would you like to know?</h2>
+        <input id="txtInput" type="text" placeholder="Ask the 8 Ball a question…" />
+        <input id="btnAsk" type="button" value="Ask The 8 Ball" onclick="Answer()" />
+        <br>
+        <br>
+        <input id="btnClear" type="button" value="Clear" onclick="Clear()" />
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <h3>The Eight Ball says...</h3>
+        <p id="lblOutput">Ask and I will answer...</p>
+    </div>
+    
+</body>
+</html>

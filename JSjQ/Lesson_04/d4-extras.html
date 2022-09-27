@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is bonus.-->
+    <title>Demo 4: Extras</title>
+
+
+    <script>
+        function Example()
+        {
+            //Gets the first tag.
+            let pTags = document.querySelector('p');
+            console.log(pTags);
+            
+            //Gets all tags.
+            pTags = document.querySelectorAll('p');
+            console.table(pTags);
+
+            //Gets all with class "color"
+            pTags = document.querySelectorAll(".color");
+            console.table(pTags);
+        }
+
+    </script>
+
+
+</head>
+<body>
+    <h1>Examples:</h1>
+    <br>
+    <ul>
+        <!--lorem4 (or any number) generates that number of lorem ipsum-->
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam.</li>
+    </ul>
+    <br>
+    <!--p*3 will generate 3 p tags.-->
+    <p class="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, temporibus eaque assumenda voluptas culpa id iste ut consectetur molestiae aliquam beatae eligendi ad delectus illo, corporis obcaecati pariatur quaerat iure.</p>
+    <p class="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, temporibus eaque assumenda voluptas culpa id iste ut consectetur molestiae aliquam beatae eligendi ad delectus illo, corporis obcaecati pariatur quaerat iure.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, temporibus eaque assumenda voluptas culpa id iste ut consectetur molestiae aliquam beatae eligendi ad delectus illo, corporis obcaecati pariatur quaerat iure.</p>
+
+    <input name="btnTest" type="button" value="Test Example" onclick="Example()" />
+</body>
+</html>

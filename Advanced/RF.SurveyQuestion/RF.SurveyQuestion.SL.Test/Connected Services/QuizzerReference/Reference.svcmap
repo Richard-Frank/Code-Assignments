@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="df362fe8-33fd-4b8d-8ce8-ea8db5aa73ad" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51979/Quizzer.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Quizzer.disco" MetadataType="Disco" ID="5c1a8e32-87a3-4286-82d6-7435dc31e07f" SourceId="1" SourceUrl="http://localhost:51979/Quizzer.svc?disco" />
+    <MetadataFile FileName="Quizzer.xsd" MetadataType="Schema" ID="721311b9-6b9c-4093-9620-e30c67c9f834" SourceId="1" SourceUrl="http://localhost:51979/Quizzer.svc?xsd=xsd0" />
+    <MetadataFile FileName="Quizzer1.xsd" MetadataType="Schema" ID="88edbcb1-04b4-440d-a9f2-95a683f47fb5" SourceId="1" SourceUrl="http://localhost:51979/Quizzer.svc?xsd=xsd1" />
+    <MetadataFile FileName="Quizzer.wsdl" MetadataType="Wsdl" ID="187ccf8b-2574-42fa-8c5c-3d73d2d4c2be" SourceId="1" SourceUrl="http://localhost:51979/Quizzer.svc?wsdl" />
+    <MetadataFile FileName="Quizzer11.xsd" MetadataType="Schema" ID="665b4c86-4aad-4064-892e-4b8c01e0ed12" SourceId="1" SourceUrl="http://localhost:51979/Quizzer.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

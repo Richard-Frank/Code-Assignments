@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/RF.Cardgame.BL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RF.Cardgame.BL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:49557/Cardgame.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfCAdmin">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAdmin" nillable="true" type="tns:CAdmin" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAdmin" nillable="true" type="tns:ArrayOfCAdmin" />
+  <xs:complexType name="CAdmin">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAdmin" nillable="true" type="tns:CAdmin" />
+  <xs:complexType name="ArrayOfCPlayer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CPlayer" nillable="true" type="tns:CPlayer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCPlayer" nillable="true" type="tns:ArrayOfCPlayer" />
+  <xs:complexType name="CPlayer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Losses" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Wins" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CPlayer" nillable="true" type="tns:CPlayer" />
+  <xs:complexType name="ArrayOfCCard">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CCard" nillable="true" type="tns:CCard" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCCard" nillable="true" type="tns:ArrayOfCCard" />
+  <xs:complexType name="CCard">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Attack" type="xs:int" />
+      <xs:element minOccurs="0" name="Cost" type="xs:int" />
+      <xs:element minOccurs="0" name="Health" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CCard" nillable="true" type="tns:CCard" />
+  <xs:complexType name="ArrayOfCDeck">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CDeck" nillable="true" type="tns:CDeck" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCDeck" nillable="true" type="tns:ArrayOfCDeck" />
+  <xs:complexType name="CDeck">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CDeck" nillable="true" type="tns:CDeck" />
+  <xs:complexType name="ArrayOfCGame">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CGame" nillable="true" type="tns:CGame" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCGame" nillable="true" type="tns:ArrayOfCGame" />
+  <xs:complexType name="CGame">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="MatchDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="OpponentId" type="ser:guid" />
+      <xs:element minOccurs="0" name="PlayerId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CGame" nillable="true" type="tns:CGame" />
+</xs:schema>

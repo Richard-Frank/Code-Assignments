@@ -1,0 +1,5 @@
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.CustomExceptions\bin\Debug\YoutubeTimer.CustomExceptions.dll
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.CustomExceptions\bin\Debug\YoutubeTimer.CustomExceptions.pdb
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.CustomExceptions\obj\Debug\YoutubeTimer.CustomExceptions.csprojAssemblyReference.cache
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.CustomExceptions\obj\Debug\YoutubeTimer.CustomExceptions.dll
+C:\DEV\Personal\YoutubeTimer\YoutubeTimer.CustomExceptions\obj\Debug\YoutubeTimer.CustomExceptions.pdb

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 1: On Load</title>
+
+    <!--Reads the external file and waits for the page to load-->
+    <script source="#" defer>
+
+        function Working()
+        {
+        let x = 1;
+        x = x +2;
+        //innerHTML refers to the text between the <>HTML<>
+        document.getElementById("lblDisplay").innerHTML = "Working is " + x;
+        }
+    </script>
+
+
+</head>
+<!--Calls the Working function on body load-->
+<!--<body onload = 'Working()'>-->
+
+    <body>
+    
+        <h1 id="lblDisplay">Test</h1>
+        <!--Calls the Working function from an onclick event.-->
+        <input type="button" value="Show number" onclick="Working()">
+
+
+
+
+
+        <!--Reads the external file, defer is not needed because body and the page is loaded by this point-->
+        <script source="#">
+
+        </script>
+</body>
+</html>

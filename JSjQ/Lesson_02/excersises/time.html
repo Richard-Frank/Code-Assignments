@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Printout</title>
+
+
+    <script>
+
+        let hour = 0;
+        let minute = 0;
+        let second = 0;
+
+        do
+        {
+            document.write(hour + ":" + minute + ":" + second + "<br />")
+            second++
+            if(second >= 60)
+            {
+                minute++
+                second = 0;
+                if(minute >= 60)
+                {
+                    hour++
+                    minute = 0;
+                }
+            }
+        }
+        while(hour < 24)
+
+
+/*      let hour;
+        let minute;
+        let second;
+
+        //All loops must resolve.
+        for(hour = 0; hour <24; hour++)
+        {
+            for(minute = 0; minute < 60; minute++)
+            {
+                for(second = 0; second < 60; second++)
+                {
+                    document.write(hour + ":" + minute + ":" + second + "<br />")
+                }
+            }
+        } */
+
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

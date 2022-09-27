@@ -1,0 +1,9 @@
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\bin\Debug\Computerland.PL.Test.dll
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\bin\Debug\Computerland.PL.Test.pdb
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\bin\Debug\Computerland.PL.dll
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\bin\Debug\Utilites.CustomExceptions.dll
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\bin\Debug\Computerland.PL.pdb
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\bin\Debug\Utilites.CustomExceptions.pdb
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\obj\Debug\Computerland.PL.Test.csprojResolveAssemblyReference.cache
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\obj\Debug\Computerland.PL.Test.dll
+C:\DEV\Intermediate\Computerland\Computerland.PL.Test\obj\Debug\Computerland.PL.Test.pdb

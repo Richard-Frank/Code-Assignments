@@ -1,0 +1,7 @@
+C:\DEV\Intermediate\Banking\Banking.PL\bin\Debug\Banking.PL.dll.config
+C:\DEV\Intermediate\Banking\Banking.PL\bin\Debug\Banking.PL.dll
+C:\DEV\Intermediate\Banking\Banking.PL\bin\Debug\Banking.PL.pdb
+C:\DEV\Intermediate\Banking\Banking.PL\obj\Debug\Banking.PL.csprojAssemblyReference.cache
+C:\DEV\Intermediate\Banking\Banking.PL\obj\Debug\Banking.PL.csproj.CoreCompileInputs.cache
+C:\DEV\Intermediate\Banking\Banking.PL\obj\Debug\Banking.PL.dll
+C:\DEV\Intermediate\Banking\Banking.PL\obj\Debug\Banking.PL.pdb

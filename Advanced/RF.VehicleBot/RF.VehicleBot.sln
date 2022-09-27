@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.VehicleBot", "RF.VehicleBot\RF.VehicleBot.csproj", "{415B90E1-4739-4C3C-A669-AD1FF41F05E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415B90E1-4739-4C3C-A669-AD1FF41F05E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415B90E1-4739-4C3C-A669-AD1FF41F05E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415B90E1-4739-4C3C-A669-AD1FF41F05E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415B90E1-4739-4C3C-A669-AD1FF41F05E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCE23E7B-E4AE-4DAD-840C-B06186896EE3}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RF.VehicleBot\\RF.VehicleBot.csproj
+		SccProjectName1 = RF.VehicleBot
+		SccLocalPath1 = RF.VehicleBot
+	EndGlobalSection
+EndGlobal

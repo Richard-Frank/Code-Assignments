@@ -1,0 +1,16 @@
+C:\DEV\Intermediate\Banking\Banking.UI\bin\Debug\Banking.UI.exe.config
+C:\DEV\Intermediate\Banking\Banking.UI\bin\Debug\Banking.UI.exe
+C:\DEV\Intermediate\Banking\Banking.UI\bin\Debug\Banking.UI.pdb
+C:\DEV\Intermediate\Banking\Banking.UI\bin\Debug\Banking.BL.dll
+C:\DEV\Intermediate\Banking\Banking.UI\bin\Debug\Banking.PL.dll
+C:\DEV\Intermediate\Banking\Banking.UI\bin\Debug\Banking.BL.pdb
+C:\DEV\Intermediate\Banking\Banking.UI\bin\Debug\Banking.PL.pdb
+C:\DEV\Intermediate\Banking\Banking.UI\bin\Debug\Banking.PL.dll.config
+C:\DEV\Intermediate\Banking\Banking.UI\obj\Debug\Banking.UI.csprojAssemblyReference.cache
+C:\DEV\Intermediate\Banking\Banking.UI\obj\Debug\Banking.UI.frmBanking.resources
+C:\DEV\Intermediate\Banking\Banking.UI\obj\Debug\Banking.UI.Properties.Resources.resources
+C:\DEV\Intermediate\Banking\Banking.UI\obj\Debug\Banking.UI.csproj.GenerateResource.cache
+C:\DEV\Intermediate\Banking\Banking.UI\obj\Debug\Banking.UI.csproj.CoreCompileInputs.cache
+C:\DEV\Intermediate\Banking\Banking.UI\obj\Debug\Banking.UI.csproj.CopyComplete
+C:\DEV\Intermediate\Banking\Banking.UI\obj\Debug\Banking.UI.exe
+C:\DEV\Intermediate\Banking\Banking.UI\obj\Debug\Banking.UI.pdb

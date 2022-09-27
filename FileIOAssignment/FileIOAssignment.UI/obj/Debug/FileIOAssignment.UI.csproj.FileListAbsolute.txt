@@ -1,0 +1,9 @@
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\bin\Debug\FileIOAssignment.UI.exe.config
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\bin\Debug\FileIOAssignment.UI.exe
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\bin\Debug\FileIOAssignment.UI.pdb
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\obj\Debug\FileIOAssignment.UI.csprojResolveAssemblyReference.cache
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\obj\Debug\FileIOAssignment.UI.frmFileIO.resources
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\obj\Debug\FileIOAssignment.UI.Properties.Resources.resources
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\obj\Debug\FileIOAssignment.UI.csproj.GenerateResource.Cache
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\obj\Debug\FileIOAssignment.UI.exe
+C:\DEV\FileIOAssignment\FileIOAssignment.UI\obj\Debug\FileIOAssignment.UI.pdb

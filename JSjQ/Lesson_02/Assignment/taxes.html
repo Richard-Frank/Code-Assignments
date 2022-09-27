@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+
+
+    <script>
+        let input;
+        let taxedAmount;
+
+        let bracketOne = 12000;
+        let bracketTwo = 36000;
+        let highest = 90000;
+
+        
+        let percentageOne = 0.85;
+        let percentageTwo = 0.75;
+        let Two = 2;
+
+        input = window.prompt("Please enter your income.", "");
+
+    if(input !== null && input !== "")
+    {
+        if(!isNaN(input))
+        {
+            input = parseFloat(input);
+            switch(true)
+            {           
+                case (bracketOne >= input):
+                    alert("Your income will not be taxed.");
+                    console.log("Too low")
+                    break;
+                case (bracketTwo >= input && input > bracketOne):
+                    taxedAmount = input - (input * percentageOne)
+
+                    alert("You must pay: $" + taxedAmount.toFixed(Two) + " on your income of " + "$" + input.toFixed(Two));
+                    document.write('<h3 style="text-align: center;">' +"You must pay: $" + taxedAmount.toFixed(Two) + " on your income of " + "$" + input.toFixed(Two) + '</h3>')
+
+                    console.log("Bracket one.")
+                    break;
+                case (highest >= input && input > bracketTwo):
+                    taxedAmount = input - (input * percentageTwo)
+
+                    alert("You must pay: $" + taxedAmount.toFixed(Two) + " on your income of " + "$" + input.toFixed(Two));
+                    document.write('<h3 style="text-align: center;">' +"You must pay: $" + taxedAmount.toFixed(Two) + " on your income of " + "$" + input.toFixed(Two) + '</h3>')
+
+                    console.log("Bracket two.")
+                    break;
+                case (input > highest):
+                    alert("We do not have the data to calculate the tax on this income.");
+
+                    console.log("Too high");
+                    break;
+                default:
+                    alert("Taxes could not be calculated!");
+
+                    console.log("Input is: " + input + " Switch Defaulted");
+                    break;
+            }
+        }
+        else
+        {
+            alert("Please enter a valid number. (You do not need add a '$')");
+            location.reload();
+        }
+    }
+    else
+    {
+
+    }
+
+    </script>
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>

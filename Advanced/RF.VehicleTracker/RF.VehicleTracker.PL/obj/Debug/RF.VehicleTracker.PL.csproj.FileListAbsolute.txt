@@ -1,0 +1,7 @@
+C:\DEV\Advanced\RF.VehicleTracker\RF.VehicleTracker.PL\bin\Debug\RF.VehicleTracker.PL.dll.config
+C:\DEV\Advanced\RF.VehicleTracker\RF.VehicleTracker.PL\bin\Debug\RF.VehicleTracker.PL.dll
+C:\DEV\Advanced\RF.VehicleTracker\RF.VehicleTracker.PL\bin\Debug\RF.VehicleTracker.PL.pdb
+C:\DEV\Advanced\RF.VehicleTracker\RF.VehicleTracker.PL\obj\Debug\RF.VehicleTracker.PL.csprojAssemblyReference.cache
+C:\DEV\Advanced\RF.VehicleTracker\RF.VehicleTracker.PL\obj\Debug\RF.VehicleTracker.PL.csproj.CoreCompileInputs.cache
+C:\DEV\Advanced\RF.VehicleTracker\RF.VehicleTracker.PL\obj\Debug\RF.VehicleTracker.PL.dll
+C:\DEV\Advanced\RF.VehicleTracker\RF.VehicleTracker.PL\obj\Debug\RF.VehicleTracker.PL.pdb

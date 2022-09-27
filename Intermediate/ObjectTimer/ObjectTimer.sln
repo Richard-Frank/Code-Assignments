@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectTimer.UI", "ObjectTimer.UI\ObjectTimer.UI.csproj", "{62F57E3E-C632-4732-8224-4DB2BE617CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectTimer.BusinessLayer", "ObjectTimer.BusinessLayer\ObjectTimer.BusinessLayer.csproj", "{90C540F7-5505-4C1F-8A46-23A2ED4BFAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectTimer.CustomExceptions", "ObjectTimer.CustomExceptions\ObjectTimer.CustomExceptions.csproj", "{D13838AE-582B-499D-A98D-FEAAB3A1E09A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectTimer.BL.Test", "ObjectTimer.BL.Test\ObjectTimer.BL.Test.csproj", "{89066F03-10F3-4483-A110-3E4BA1146867}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ObjectTimer.UI\\ObjectTimer.UI.csproj
+		SccProjectName1 = ObjectTimer.UI
+		SccLocalPath1 = ObjectTimer.UI
+		SccProjectUniqueName2 = ObjectTimer.BusinessLayer\\ObjectTimer.BusinessLayer.csproj
+		SccProjectName2 = ObjectTimer.BusinessLayer
+		SccLocalPath2 = ObjectTimer.BusinessLayer
+		SccProjectUniqueName3 = ObjectTimer.CustomExceptions\\ObjectTimer.CustomExceptions.csproj
+		SccProjectName3 = ObjectTimer.CustomExceptions
+		SccLocalPath3 = ObjectTimer.CustomExceptions
+		SccProjectUniqueName4 = ObjectTimer.BL.Test\\ObjectTimer.BL.Test.csproj
+		SccProjectName4 = ObjectTimer.BL.Test
+		SccLocalPath4 = ObjectTimer.BL.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F57E3E-C632-4732-8224-4DB2BE617CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F57E3E-C632-4732-8224-4DB2BE617CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F57E3E-C632-4732-8224-4DB2BE617CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F57E3E-C632-4732-8224-4DB2BE617CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C540F7-5505-4C1F-8A46-23A2ED4BFAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C540F7-5505-4C1F-8A46-23A2ED4BFAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C540F7-5505-4C1F-8A46-23A2ED4BFAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C540F7-5505-4C1F-8A46-23A2ED4BFAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D13838AE-582B-499D-A98D-FEAAB3A1E09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13838AE-582B-499D-A98D-FEAAB3A1E09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13838AE-582B-499D-A98D-FEAAB3A1E09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13838AE-582B-499D-A98D-FEAAB3A1E09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89066F03-10F3-4483-A110-3E4BA1146867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89066F03-10F3-4483-A110-3E4BA1146867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89066F03-10F3-4483-A110-3E4BA1146867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89066F03-10F3-4483-A110-3E4BA1146867}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

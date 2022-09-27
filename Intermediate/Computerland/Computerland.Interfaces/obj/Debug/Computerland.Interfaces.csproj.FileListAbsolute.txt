@@ -1,0 +1,5 @@
+C:\DEV\Intermediate\Computerland\Computerland.Interfaces\bin\Debug\Computerland.Interfaces.dll
+C:\DEV\Intermediate\Computerland\Computerland.Interfaces\bin\Debug\Computerland.Interfaces.pdb
+C:\DEV\Intermediate\Computerland\Computerland.Interfaces\obj\Debug\Computerland.Interfaces.csprojResolveAssemblyReference.cache
+C:\DEV\Intermediate\Computerland\Computerland.Interfaces\obj\Debug\Computerland.Interfaces.dll
+C:\DEV\Intermediate\Computerland\Computerland.Interfaces\obj\Debug\Computerland.Interfaces.pdb

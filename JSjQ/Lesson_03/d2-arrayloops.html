@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 2: Array Loops</title>
+    <script>
+        let aryItems = new Array();
+
+        /*for(let i = 0; i < 4; i++)
+        {
+            aryItems[i] = window.prompt("Enter your favorite foods.", "");
+        }*/
+
+        let count = 0;
+        let userItem = "";
+
+        while(userItem != null)
+        {
+            userItem = window.prompt("Enter your item #" + (count+1), "")
+            if(userItem != null)
+            {
+                //Adds the userItem to aryItems at index 'count'
+                aryItems[count] = userItem;
+                count++;
+            }
+        }
+
+        //Console.table is useful for debugging arrays.
+        console.table(aryItems);
+
+        for(let item in aryItems)
+        {//Cycle through whole array.
+            document.write(aryItems[item] + "<br />")
+        }
+
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>

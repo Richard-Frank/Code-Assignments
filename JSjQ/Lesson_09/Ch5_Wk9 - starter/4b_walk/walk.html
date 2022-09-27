@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/walk.js"></script>
+
+    <style>
+        .walking {
+            /*Position needed for animation. Uses a sprite.*/
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 184px;
+            height: 325px;
+            background: url(images/capguy-walk-1472.png) no-repeat 0 0;
+            overflow: hidden;
+            margin-left: 0px;
+            /*background-color: rebeccapurple;*/
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="walking">
+        <!--<img src="images/capguy-walk-1472.png" class='deliveryMan' />-->
+    </div>
+    <input id="walk" type="button" value="Walk">
+    <input id="stop" type="button" value="Stop">
+    <input id="reload" type="button" value="Reload">
+
+</body>
+
+</html>

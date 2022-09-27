@@ -1,0 +1,5 @@
+C:\DEV\Banking\Banking.PL\bin\Debug\Banking.PL.dll.config
+C:\DEV\Banking\Banking.PL\bin\Debug\Banking.PL.dll
+C:\DEV\Banking\Banking.PL\bin\Debug\Banking.PL.pdb
+C:\DEV\Banking\Banking.PL\obj\Debug\Banking.PL.dll
+C:\DEV\Banking\Banking.PL\obj\Debug\Banking.PL.pdb

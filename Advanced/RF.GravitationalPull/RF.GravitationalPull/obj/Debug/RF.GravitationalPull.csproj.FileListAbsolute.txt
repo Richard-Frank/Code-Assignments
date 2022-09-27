@@ -1,0 +1,13 @@
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\bin\Debug\RF.GravitationalPull.exe.config
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\bin\Debug\RF.GravitationalPull.exe
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\bin\Debug\RF.GravitationalPull.pdb
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\bin\Debug\RF.GravitationalPull.BL.dll
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\bin\Debug\RF.GravitationalPull.BL.pdb
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\obj\Debug\RF.GravitationalPull.csprojAssemblyReference.cache
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\obj\Debug\RF.GravitationalPull.frmGravPull.resources
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\obj\Debug\RF.GravitationalPull.Properties.Resources.resources
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\obj\Debug\RF.GravitationalPull.csproj.GenerateResource.cache
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\obj\Debug\RF.GravitationalPull.csproj.CoreCompileInputs.cache
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\obj\Debug\RF.GravitationalPull.csproj.CopyComplete
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\obj\Debug\RF.GravitationalPull.exe
+C:\DEV\Advanced\RF.GravitationalPull\RF.GravitationalPull\obj\Debug\RF.GravitationalPull.pdb

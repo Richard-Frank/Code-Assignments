@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Questions">
+  <DataContextMoniker Name="/QuestionsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f5e35bed-2f35-454e-a7cf-d3d6662fdb87" absoluteBounds="0.5, 2.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/QuestionsDataContext/tblActivation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72fb000d-7c4d-4edc-a0c8-1b5b4db02563" absoluteBounds="0.515, 2.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="62c373ba-b7d7-4fc5-b606-585a840cdf7f" absoluteBounds="4.875, 0.875, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/QuestionsDataContext/tblAnswer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c7cc3f9-765b-4a3e-a4f4-fb160d351219" absoluteBounds="4.8900000000000006, 1.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dc963c1c-4f0b-47f5-92aa-06215043dac5" absoluteBounds="2.625, 0.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuestionsDataContext/tblQAJunction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="271f1b3b-fd0c-4c09-9fa6-6412f48359ca" absoluteBounds="2.64, 1.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d8fb0b04-86e7-4585-a9b7-12829b2e707a" absoluteBounds="0.5, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/QuestionsDataContext/tblQuestion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c6133eeb-c755-4133-8322-a2851e746553" absoluteBounds="0.51500000000000012, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="56ccb81a-80be-4a6a-94cc-600910277569" absoluteBounds="2.75, 2.625, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/QuestionsDataContext/tblResponse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="784462f8-a794-435f-bcea-f4f75f3926f4" absoluteBounds="2.765, 3.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

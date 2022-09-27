@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.UI", "Banking.UI\Banking.UI.csproj", "{47086E64-AA37-4119-8911-BD4EFFBBBA08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.BL", "Banking.BL\Banking.BL.csproj", "{7BA2C8E6-D736-4059-A358-9532EF6445DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.PL", "Banking.PL\Banking.PL.csproj", "{F1E851E9-AF12-49DD-82C1-D1549CC6AFE8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Banking.UI\\Banking.UI.csproj
+		SccProjectName1 = Banking.UI
+		SccLocalPath1 = Banking.UI
+		SccProjectUniqueName2 = Banking.BL\\Banking.BL.csproj
+		SccProjectName2 = Banking.BL
+		SccLocalPath2 = Banking.BL
+		SccProjectUniqueName3 = Banking.PL\\Banking.PL.csproj
+		SccProjectName3 = Banking.PL
+		SccLocalPath3 = Banking.PL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47086E64-AA37-4119-8911-BD4EFFBBBA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47086E64-AA37-4119-8911-BD4EFFBBBA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47086E64-AA37-4119-8911-BD4EFFBBBA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47086E64-AA37-4119-8911-BD4EFFBBBA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA2C8E6-D736-4059-A358-9532EF6445DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA2C8E6-D736-4059-A358-9532EF6445DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA2C8E6-D736-4059-A358-9532EF6445DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA2C8E6-D736-4059-A358-9532EF6445DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E851E9-AF12-49DD-82C1-D1549CC6AFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E851E9-AF12-49DD-82C1-D1549CC6AFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E851E9-AF12-49DD-82C1-D1549CC6AFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E851E9-AF12-49DD-82C1-D1549CC6AFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.SurveyQuestion.UI", "RF.SurveyQuestion\RF.SurveyQuestion.UI.csproj", "{12C8D03F-73DB-4B6B-900D-03C1C04B5F84}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RF.SurveyQuestion.DB", "RF.SurveyQuestion.DB\RF.SurveyQuestion.DB.sqlproj", "{24151911-17D2-4AF6-99B1-12CB01983812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.SurveyQuestion.PL", "RF.SurveyQuestion.PL\RF.SurveyQuestion.PL.csproj", "{9A43D0DD-D2B4-4BEB-BF66-1F41C1932240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.SurveyQuestion.BL", "RF.SurveyQuestion.BL\RF.SurveyQuestion.BL.csproj", "{460792C9-1D0B-4742-907F-0EB336DE1EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.SurveyQuestion.PL.Test", "RF.SurveyQuestion.PL.Test\RF.SurveyQuestion.PL.Test.csproj", "{26081E09-36D0-4987-A42C-92F9C503A9EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ut.SurveyQuestion.BL.Test", "ut.SurveyQuestion.BL.Test\ut.SurveyQuestion.BL.Test.csproj", "{78C4228B-B939-4D0C-998E-C5B590E37C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.SurveyQuestion.SL", "RF.SurveyQuestion.SL\RF.SurveyQuestion.SL.csproj", "{DFA1636F-1440-4340-8914-4B65DA3CA1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.SurveyQuestion.SL.Test", "RF.SurveyQuestion.SL.Test\RF.SurveyQuestion.SL.Test.csproj", "{C15EA735-456C-4266-BA92-E4C8A9D5334E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DFA1636F-1440-4340-8914-4B65DA3CA1A5} = {DFA1636F-1440-4340-8914-4B65DA3CA1A5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.SurveyQuestion.ActivatorUI", "RF.SurveyQuestion.ActivatorUI\RF.SurveyQuestion.ActivatorUI.csproj", "{28608E96-EB4E-4DD6-BCD7-49CB89512DCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DFA1636F-1440-4340-8914-4B65DA3CA1A5} = {DFA1636F-1440-4340-8914-4B65DA3CA1A5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.SurveyQuestion.QuizzerUI", "RF.SurveyQuestion.QuizzerUI\RF.SurveyQuestion.QuizzerUI.csproj", "{B661A6DF-9BF6-424E-B1FD-CF63D96EB1DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DFA1636F-1440-4340-8914-4B65DA3CA1A5} = {DFA1636F-1440-4340-8914-4B65DA3CA1A5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12C8D03F-73DB-4B6B-900D-03C1C04B5F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C8D03F-73DB-4B6B-900D-03C1C04B5F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C8D03F-73DB-4B6B-900D-03C1C04B5F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C8D03F-73DB-4B6B-900D-03C1C04B5F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24151911-17D2-4AF6-99B1-12CB01983812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24151911-17D2-4AF6-99B1-12CB01983812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24151911-17D2-4AF6-99B1-12CB01983812}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{24151911-17D2-4AF6-99B1-12CB01983812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24151911-17D2-4AF6-99B1-12CB01983812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24151911-17D2-4AF6-99B1-12CB01983812}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9A43D0DD-D2B4-4BEB-BF66-1F41C1932240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A43D0DD-D2B4-4BEB-BF66-1F41C1932240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A43D0DD-D2B4-4BEB-BF66-1F41C1932240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A43D0DD-D2B4-4BEB-BF66-1F41C1932240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460792C9-1D0B-4742-907F-0EB336DE1EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460792C9-1D0B-4742-907F-0EB336DE1EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460792C9-1D0B-4742-907F-0EB336DE1EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460792C9-1D0B-4742-907F-0EB336DE1EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26081E09-36D0-4987-A42C-92F9C503A9EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26081E09-36D0-4987-A42C-92F9C503A9EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26081E09-36D0-4987-A42C-92F9C503A9EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26081E09-36D0-4987-A42C-92F9C503A9EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C4228B-B939-4D0C-998E-C5B590E37C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C4228B-B939-4D0C-998E-C5B590E37C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C4228B-B939-4D0C-998E-C5B590E37C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C4228B-B939-4D0C-998E-C5B590E37C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA1636F-1440-4340-8914-4B65DA3CA1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA1636F-1440-4340-8914-4B65DA3CA1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA1636F-1440-4340-8914-4B65DA3CA1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA1636F-1440-4340-8914-4B65DA3CA1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15EA735-456C-4266-BA92-E4C8A9D5334E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15EA735-456C-4266-BA92-E4C8A9D5334E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15EA735-456C-4266-BA92-E4C8A9D5334E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15EA735-456C-4266-BA92-E4C8A9D5334E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28608E96-EB4E-4DD6-BCD7-49CB89512DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28608E96-EB4E-4DD6-BCD7-49CB89512DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28608E96-EB4E-4DD6-BCD7-49CB89512DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28608E96-EB4E-4DD6-BCD7-49CB89512DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B661A6DF-9BF6-424E-B1FD-CF63D96EB1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B661A6DF-9BF6-424E-B1FD-CF63D96EB1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B661A6DF-9BF6-424E-B1FD-CF63D96EB1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B661A6DF-9BF6-424E-B1FD-CF63D96EB1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0429B823-EDC5-4842-B1A0-766C30FC4DD9}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RF.SurveyQuestion.DB\\RF.SurveyQuestion.DB.sqlproj
+		SccProjectName1 = RF.SurveyQuestion.DB
+		SccLocalPath1 = RF.SurveyQuestion.DB
+		SccProjectUniqueName2 = RF.SurveyQuestion.PL\\RF.SurveyQuestion.PL.csproj
+		SccProjectName2 = RF.SurveyQuestion.PL
+		SccLocalPath2 = RF.SurveyQuestion.PL
+		SccProjectUniqueName3 = RF.SurveyQuestion.BL\\RF.SurveyQuestion.BL.csproj
+		SccProjectName3 = RF.SurveyQuestion.BL
+		SccLocalPath3 = RF.SurveyQuestion.BL
+		SccProjectUniqueName4 = RF.SurveyQuestion\\RF.SurveyQuestion.UI.csproj
+		SccProjectName4 = RF.SurveyQuestion
+		SccLocalPath4 = RF.SurveyQuestion
+		SccProjectUniqueName5 = RF.SurveyQuestion.PL.Test\\RF.SurveyQuestion.PL.Test.csproj
+		SccProjectName5 = RF.SurveyQuestion.PL.Test
+		SccLocalPath5 = RF.SurveyQuestion.PL.Test
+		SccProjectUniqueName6 = ut.SurveyQuestion.BL.Test\\ut.SurveyQuestion.BL.Test.csproj
+		SccProjectName6 = ut.SurveyQuestion.BL.Test
+		SccLocalPath6 = ut.SurveyQuestion.BL.Test
+		SccProjectUniqueName7 = RF.SurveyQuestion.SL\\RF.SurveyQuestion.SL.csproj
+		SccProjectName7 = RF.SurveyQuestion.SL
+		SccLocalPath7 = RF.SurveyQuestion.SL
+		SccProjectUniqueName8 = RF.SurveyQuestion.SL.Test\\RF.SurveyQuestion.SL.Test.csproj
+		SccProjectName8 = RF.SurveyQuestion.SL.Test
+		SccLocalPath8 = RF.SurveyQuestion.SL.Test
+		SccProjectUniqueName9 = RF.SurveyQuestion.ActivatorUI\\RF.SurveyQuestion.ActivatorUI.csproj
+		SccProjectName9 = RF.SurveyQuestion.ActivatorUI
+		SccLocalPath9 = RF.SurveyQuestion.ActivatorUI
+		SccProjectUniqueName10 = RF.SurveyQuestion.QuizzerUI\\RF.SurveyQuestion.QuizzerUI.csproj
+		SccProjectName10 = RF.SurveyQuestion.QuizzerUI
+		SccLocalPath10 = RF.SurveyQuestion.QuizzerUI
+	EndGlobalSection
+EndGlobal

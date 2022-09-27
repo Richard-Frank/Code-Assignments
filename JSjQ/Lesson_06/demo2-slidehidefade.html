@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">//Links to jQuery | Must be first script in stack.</script>
+    <script src="scripts/demo2.js">//Links to scripts folders.</script>
+    <title>Demo 2: Slide/Hide/Fade</title>
+
+    <style>
+        #wrapper { height: 1600px;}
+        .wrap {height: 500px;}
+        input {margin-top: 25px; margin-left: 50px;}
+        #box1, #box2, #box3 {width: 350px; height: 350px; margin: 50px; background-color: bisque;}
+        #box2 {background-color: chartreuse;}
+        #box3 {background-color: rebeccapurple;}
+    </style>
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div class="wrap">
+            <input type="button" id="slideUp" value="Slide Up!" />
+            <input type="button" id="slideDown" value="Slide Down!" />
+            <input type="button" id="slideUpDown" value="Toggle Slide" />
+
+            <div id="box1">
+
+            </div>
+        </div>
+
+        <div class="wrap">
+            <input type="button" id="fadeOut" value="Fade Out" />
+            <input type="button" id="fadeIn" value="Fade In" />
+            <input type="button" id="fadeInOut" value="Toggle Fade" />
+            <br>
+            <input type="button" id="fadeTo50" value="Fade To 50%" />
+            <input type="button" id="fadeTo100" value="Fade To 100%" />
+
+            <div id="box2">
+
+            </div>
+        </div>
+
+        <div class="wrap">
+            <input type="button" id="hide" value="Hide" />
+            <input type="button" id="show" value="Show" />
+            <input type="button" id="hideShow" value="Toggle Hide/Show" />
+
+            <div id="box3">
+
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>

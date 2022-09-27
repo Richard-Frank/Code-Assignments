@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 2: Loops</title>
+
+
+    <script>
+
+        /*
+        for(var counter = 1; counter <= 10; counter++)
+        {
+            console.log(counter);
+        }
+        */
+
+        /*
+        for(let bottles = 100; bottles >= 0; bottles--)
+        {
+            document.write(bottles + " " + "bottles of liquid of unknown origin on the wall. <br />");
+        }
+                for(let bottles = 100; bottles >= 0; bottles-=10)
+        {
+            document.write(bottles + " " + "bottles of liquid of unknown origin on the wall. <br />");
+        }
+        */
+
+        /*
+        //Variables are created outside the while loop.
+        let num = 2;
+        let square;
+        let cube;
+
+        while(num < 31)
+        {//Control the variables inside the loop.
+            square = num * num;
+            cube = num * num * num;
+
+            document.write(num + " " + "Squared is: " + square + " | " + 
+                                num + " " +"Cubed is: " + cube + "<br />");
+
+            num =  num + 2;
+        }
+        */
+
+        //Good for doing things at least once.
+        /*
+        let input;
+
+        do
+        {
+            input = window.prompt("Enter your hobbies, and enter 'Q' to quit.", "");
+            input.toLowerCase();
+
+            if(input !== "q")
+            {
+                document.write(input + "<br />");
+            }
+        } while(input !== "q") 
+        */
+
+        let input;
+        do
+        {//The cancel button will input's value to null
+            input = window.prompt("Enter your hobbies, and press cancel to quit", "");
+
+            if(input !== null)
+            {
+                document.write(input + "<br />");
+            }
+        } while(input !== null) 
+
+        //console.log(input);
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

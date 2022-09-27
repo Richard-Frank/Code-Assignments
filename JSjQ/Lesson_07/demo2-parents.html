@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parents</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+
+        $(function(){
+
+            //$('#dog').css('background-color', 'red');
+            //$('#dog').parent().css('background-color', 'red');
+
+            //Grab a parent with a specific class.
+            //$('#dog').parents('.title').css('background-color', 'red');
+
+            //Grab the parent of parent.
+            //$('#dog').parent().parent().css('background-color', 'red');
+
+            //Grab the item after the next item.
+            //$('#dog').next().next().css('background-color', 'red');
+
+            //Move up from dog, to mammals, to animals, down to reptiles, and getting the ul.
+            //$('#dog').parent().parent().next().children('ul').css('background-color', 'red');
+
+
+            //        Mammal    Animals Reptiles    ul          li       crocodile
+            //$('#dog').parent().parent().next().children('ul').children().first().css('background-color', 'red');
+            //
+            //$('#dog').parent().parent().next().children('ul').children().last().css('background-color', 'red');
+
+            //Targets the Reptiles div
+            //$('#dog').parent().parent().closest('div').next().css('background-color', 'red');
+
+            //Targets the body.
+            $('#dog').parent().parent().parent().parent().css('background-color', 'red');
+        });
+
+    </script>
+
+    <style>
+        #Animals{
+            background-color: gold;
+            width: 50%;
+            height: 700px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        #Mammals{
+            background-color: bisque;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        #Reptiles{
+            background-color: lightgreen;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        #Mammal{
+            background-color: mediumspringgreen;
+            width: 50%;
+            margin: 0 auto;
+            text-align: left;
+            margin-top: 75px;
+        }
+
+        #Reptile{
+            background-color:lightgray;
+            width: 50%;
+            margin: 0 auto;
+            text-align: left;
+            margin-top: 75px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="Animals">
+        <h3>Animals</h3>
+        <div class="title" id="Mammals">
+            <h3>Mammals</h3>
+            <ul id="Mammal">
+                <li id="dog">Dogs</li>
+                <li>Cats</li>
+                <li>Monkeys</li>
+                <li>Loins</li>
+            </ul>
+        </div>
+        <div id="Reptiles">
+            <h3>Reptiles</h3>
+            <ul id="Reptile">
+                <li>Crocodile</li>
+                <li>Snakes</li>
+                <li>Lizards</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

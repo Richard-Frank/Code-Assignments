@@ -1,0 +1,5 @@
+C:\DEV\Calculator\Calculator.BusinessLayer\bin\Debug\Calculator.BusinessLayer.dll
+C:\DEV\Calculator\Calculator.BusinessLayer\bin\Debug\Calculator.BusinessLayer.pdb
+C:\DEV\Calculator\Calculator.BusinessLayer\obj\Debug\Calculator.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\DEV\Calculator\Calculator.BusinessLayer\obj\Debug\Calculator.BusinessLayer.dll
+C:\DEV\Calculator\Calculator.BusinessLayer\obj\Debug\Calculator.BusinessLayer.pdb

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Manipulation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+
+        $(function(){
+
+            $('#btnSort').click(function() { 
+
+                //Places an h3 at the end of the ul.
+                //$('ul').after('<h3>List of Games </h3>')
+
+                //Places an h3 at the end of the ul.
+                //$('<h3>List of Games </h3>').insertAfter('ul')
+
+                //Places an h3 before the ul.
+                //$('ul').before('<h3>List of Games </h3>');
+
+                //Places an h3 before the ul.
+                //$('<h3>List of Games </h3>').insertBefore('ul');
+
+                //Replaces the h3 with a new h3.
+                $('h3').replaceWith('<h3>List of Games </h3>');
+
+                //Starts at 2, does not include 5.
+                //$('li').slice(2,5).css('background-color', 'lime')
+
+                /*
+                //Grab all the even list items.
+                $('li').filter(':even').css('background-color', 'whitesmoke');
+                //Grab all the odd list items.
+                $('li').filter(':odd').css('background-color', 'lightgrey');
+                //Grab the first list item.
+                $('li').filter(':first').css('background-color', 'cornflowerblue');
+                //Grab the last list item.
+                $('li').filter(':last').css('background-color', 'green');
+                */
+
+                /*
+                //Target all divs
+                $('div').css('background-color', 'lightgreen');
+                //Target all but the #container div
+                $('div').not('#container').css('background-color', 'lightblue');
+                */
+
+                //Target index 2 of li
+                $('li').eq(2).css('background-color', 'lightblue');
+                //Target the index of 2 starting from the bottom.
+                $('li').eq(-2).css('background-color', 'lightblue');
+
+                //$('p').text("This is <strong>cool</strong>");
+                $('p').html("This is <strong><span>cool</span></strong>");
+
+                $('input').val("Done.");
+
+                //Find the span tag, and give it a background.
+                $('body').find('span').css('background-color', 'lime');
+                
+
+            });
+
+        });
+
+    </script>
+
+    <style>
+        #container{
+            width: 1200px;
+            height: 700px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        #myList{
+            width: 300px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="myList">
+            <h3>Unsorted Movies</h3>
+            <ul>
+                <li>Legend of Zelda: Breath of the Wild</li>
+                <li>Horizon Zero Dawn</li>
+                <li>Super Mario Odyssey</li>
+                <li>Resident Evil 7: Biohazard</li>
+                <li>PlayerUnknown's Battlegrounds</li>
+                <li>Destiny 2</li>
+                <li>Wolfenstein II: The New Colossus</li>
+                <li>Assassin's Creed Origins</li>
+                <li>Injustice 2</li>
+                <li>Call of Duty</li>
+                <li>Prey</li>
+                <li>Uncharted</li>
+                <li>Sonic Mania</li>
+                <li>Divinity II</li>
+                <li>The Evil Within 2</li>
+            </ul>
+            <input id="btnSort" type="button" value="Do Something" />
+            <br>
+            <br>
+            <input type="text" />
+            <p>
+                Writing in <span>jQuery</span> is <i>fun.</i> I wish I could write Javascript all day long.
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>

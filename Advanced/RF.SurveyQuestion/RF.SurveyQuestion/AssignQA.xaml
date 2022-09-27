@@ -1,0 +1,40 @@
+﻿<Window x:Class="RF.SurveyQuestion.AssignQA"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RF.SurveyQuestion"
+        mc:Ignorable="d"
+        Title="AssignQA" Height="250" Width="410
+        ">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="CornflowerBlue" Offset="0"/>
+                <GradientStop Color="#FFCD3B3B" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <ComboBox x:Name="cboQuestion" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboQuestion_SelectionChanged"/>
+        <ComboBox x:Name="cboAnswerOne" HorizontalAlignment="Left" Margin="157,30,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboAnswerOne_SelectionChanged"/>
+        <ComboBox x:Name="cboAnswerTwo" HorizontalAlignment="Left" Margin="157,75,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboAnswerTwo_SelectionChanged"/>
+        <ComboBox x:Name="cboAnswerThree" HorizontalAlignment="Left" Margin="157,116,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboAnswerThree_SelectionChanged"/>
+        <ComboBox x:Name="cboAnswerFour" HorizontalAlignment="Left" Margin="157,157,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboAnswerFour_SelectionChanged"/>
+        <Label Content="Select Question:" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbCorrectOne" Content="" HorizontalAlignment="Left" Margin="282,30,0,0" VerticalAlignment="Top" Checked="rdbCorrectOne_Checked"/>
+        <RadioButton x:Name="rdbCorrectTwo" Content="" HorizontalAlignment="Left" Margin="282,76,0,0" VerticalAlignment="Top" Checked="rdbCorrectTwo_Checked"/>
+        <RadioButton x:Name="rdbCorrectThree" Content="" HorizontalAlignment="Left" Margin="282,116,0,0" VerticalAlignment="Top" Checked="rdbCorrectThree_Checked"/>
+        <RadioButton x:Name="rdbCorrectFour" Content="" HorizontalAlignment="Left" Margin="282,157,0,0" VerticalAlignment="Top" Background="White" Checked="rdbCorrectFour_Checked"/>
+        <Label Content="Assign Answers:" HorizontalAlignment="Left" Margin="157,4,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAssign" Content="Assign" HorizontalAlignment="Left" Margin="10,186,0,0" VerticalAlignment="Top" Width="85" Height="24" Click="btnAssign_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="302,186,0,0" VerticalAlignment="Top" Width="90" Height="24" Click="btnExit_Click"/>
+        <Label Content="Correct Answer" HorizontalAlignment="Left" Margin="298,4,0,0" VerticalAlignment="Top"/>
+        <Label Content="__|" HorizontalAlignment="Left" Margin="298,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="__|" HorizontalAlignment="Left" Margin="298,66,0,0" VerticalAlignment="Top"/>
+        <Label Content="__|" HorizontalAlignment="Left" Margin="298,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="__|" HorizontalAlignment="Left" Margin="298,147,0,0" VerticalAlignment="Top"/>
+        <Label Content="|" HorizontalAlignment="Left" Margin="303,128,0,0" VerticalAlignment="Top"/>
+        <Label Content="|" HorizontalAlignment="Left" Margin="303,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="|" HorizontalAlignment="Left" Margin="303,41,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

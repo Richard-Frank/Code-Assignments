@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.CardAdmin.UI", "RF.CardAdmin.UI\RF.CardAdmin.UI.csproj", "{DD46EEAA-EB6B-4763-922E-4C27FC1DCF23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A2E5F89-19D0-49FB-8B1F-629932C9D810} = {3A2E5F89-19D0-49FB-8B1F-629932C9D810}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.Cardgame.BL", "RF.Cardgame.BL\RF.Cardgame.BL.csproj", "{1E1D11F6-9E1B-40E7-90F7-ABA30D187B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.Cardgame.PL", "RF.Cardgame.PL\RF.Cardgame.PL.csproj", "{5AA5657C-FD10-4B3B-84DC-CB8F8ADEC363}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RF.Cardgame.DB", "RF.Cardgame.DB\RF.Cardgame.DB.sqlproj", "{96C34864-61BD-463D-9924-2F2B3F262327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.Cardgame.SL", "RF.Cardgame.SL\RF.Cardgame.SL.csproj", "{3A2E5F89-19D0-49FB-8B1F-629932C9D810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.Cardgame.BL.Test", "RF.Cardgame.BL.Test\RF.Cardgame.BL.Test.csproj", "{D35AABC0-6DF7-4900-9CCC-EF8631C46916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.Cardgame.SL.Test", "RF.Cardgame.SL.Test\RF.Cardgame.SL.Test.csproj", "{2383C4DF-4396-4797-A040-50D3AE89BCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.Cardgame.PL.Test", "RF.Cardgame.PL.Test\RF.Cardgame.PL.Test.csproj", "{06632659-EDF4-4A5B-9EDC-C54328796167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RF.Utilities.Exporter", "RF.Utilities.Exporter\RF.Utilities.Exporter.csproj", "{6C862BFF-42B4-4A56-8B2B-20D5C06594AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD46EEAA-EB6B-4763-922E-4C27FC1DCF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD46EEAA-EB6B-4763-922E-4C27FC1DCF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD46EEAA-EB6B-4763-922E-4C27FC1DCF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD46EEAA-EB6B-4763-922E-4C27FC1DCF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1D11F6-9E1B-40E7-90F7-ABA30D187B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1D11F6-9E1B-40E7-90F7-ABA30D187B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1D11F6-9E1B-40E7-90F7-ABA30D187B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1D11F6-9E1B-40E7-90F7-ABA30D187B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA5657C-FD10-4B3B-84DC-CB8F8ADEC363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA5657C-FD10-4B3B-84DC-CB8F8ADEC363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA5657C-FD10-4B3B-84DC-CB8F8ADEC363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA5657C-FD10-4B3B-84DC-CB8F8ADEC363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C34864-61BD-463D-9924-2F2B3F262327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C34864-61BD-463D-9924-2F2B3F262327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C34864-61BD-463D-9924-2F2B3F262327}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{96C34864-61BD-463D-9924-2F2B3F262327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C34864-61BD-463D-9924-2F2B3F262327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C34864-61BD-463D-9924-2F2B3F262327}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3A2E5F89-19D0-49FB-8B1F-629932C9D810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2E5F89-19D0-49FB-8B1F-629932C9D810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2E5F89-19D0-49FB-8B1F-629932C9D810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2E5F89-19D0-49FB-8B1F-629932C9D810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35AABC0-6DF7-4900-9CCC-EF8631C46916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35AABC0-6DF7-4900-9CCC-EF8631C46916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35AABC0-6DF7-4900-9CCC-EF8631C46916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35AABC0-6DF7-4900-9CCC-EF8631C46916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2383C4DF-4396-4797-A040-50D3AE89BCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2383C4DF-4396-4797-A040-50D3AE89BCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2383C4DF-4396-4797-A040-50D3AE89BCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2383C4DF-4396-4797-A040-50D3AE89BCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06632659-EDF4-4A5B-9EDC-C54328796167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06632659-EDF4-4A5B-9EDC-C54328796167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06632659-EDF4-4A5B-9EDC-C54328796167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06632659-EDF4-4A5B-9EDC-C54328796167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C862BFF-42B4-4A56-8B2B-20D5C06594AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C862BFF-42B4-4A56-8B2B-20D5C06594AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C862BFF-42B4-4A56-8B2B-20D5C06594AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C862BFF-42B4-4A56-8B2B-20D5C06594AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A494136-8C01-4FA1-A51E-1A0B466102A2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RF.CardAdmin.UI\\RF.CardAdmin.UI.csproj
+		SccProjectName1 = RF.CardAdmin.UI
+		SccLocalPath1 = RF.CardAdmin.UI
+		SccProjectUniqueName2 = RF.Cardgame.BL\\RF.Cardgame.BL.csproj
+		SccProjectName2 = RF.Cardgame.BL
+		SccLocalPath2 = RF.Cardgame.BL
+		SccProjectUniqueName3 = RF.Cardgame.PL\\RF.Cardgame.PL.csproj
+		SccProjectName3 = RF.Cardgame.PL
+		SccLocalPath3 = RF.Cardgame.PL
+		SccProjectUniqueName4 = RF.Cardgame.DB\\RF.Cardgame.DB.sqlproj
+		SccProjectName4 = RF.Cardgame.DB
+		SccLocalPath4 = RF.Cardgame.DB
+		SccProjectUniqueName5 = RF.Cardgame.SL\\RF.Cardgame.SL.csproj
+		SccProjectName5 = RF.Cardgame.SL
+		SccLocalPath5 = RF.Cardgame.SL
+		SccProjectUniqueName6 = RF.Cardgame.BL.Test\\RF.Cardgame.BL.Test.csproj
+		SccProjectName6 = RF.Cardgame.BL.Test
+		SccLocalPath6 = RF.Cardgame.BL.Test
+		SccProjectUniqueName7 = RF.Cardgame.SL.Test\\RF.Cardgame.SL.Test.csproj
+		SccProjectName7 = RF.Cardgame.SL.Test
+		SccLocalPath7 = RF.Cardgame.SL.Test
+		SccProjectUniqueName8 = RF.Cardgame.PL.Test\\RF.Cardgame.PL.Test.csproj
+		SccProjectName8 = RF.Cardgame.PL.Test
+		SccLocalPath8 = RF.Cardgame.PL.Test
+		SccProjectUniqueName9 = RF.Utilities.Exporter\\RF.Utilities.Exporter.csproj
+		SccProjectName9 = RF.Utilities.Exporter
+		SccLocalPath9 = RF.Utilities.Exporter
+	EndGlobalSection
+EndGlobal

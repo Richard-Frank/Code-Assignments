@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b09029d3-6dc0-401c-b675-768d4ae2f405" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://rfvehicletracker.azurewebsites.net/Model.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Model.xsd" MetadataType="Schema" ID="e218c22f-f0e5-4989-ae87-2f64fd0a3491" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Model.svc?xsd=xsd0" />
+    <MetadataFile FileName="Model.disco" MetadataType="Disco" ID="159d69b2-f33b-4fbc-8edc-c97cf8f010cd" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Model.svc?disco" />
+    <MetadataFile FileName="Model.wsdl" MetadataType="Wsdl" ID="0a7149eb-aff2-470e-a3ec-e97a920b56e2" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Model.svc?wsdl" />
+    <MetadataFile FileName="Model1.xsd" MetadataType="Schema" ID="05a0f740-199c-42db-a7ee-aaa8f34ed176" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Model.svc?xsd=xsd1" />
+    <MetadataFile FileName="Model2.xsd" MetadataType="Schema" ID="757e5c4b-90fe-43fc-8575-1ba7c8f204ae" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Model.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

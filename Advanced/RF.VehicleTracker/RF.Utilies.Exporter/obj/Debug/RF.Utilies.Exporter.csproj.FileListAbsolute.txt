@@ -1,0 +1,6 @@
+C:\DEV\Advanced\RF.VehicleTracker\RF.Utilies.Exporter\bin\Debug\RF.Utilies.Exporter.dll
+C:\DEV\Advanced\RF.VehicleTracker\RF.Utilies.Exporter\bin\Debug\RF.Utilies.Exporter.pdb
+C:\DEV\Advanced\RF.VehicleTracker\RF.Utilies.Exporter\obj\Debug\RF.Utilies.Exporter.csprojAssemblyReference.cache
+C:\DEV\Advanced\RF.VehicleTracker\RF.Utilies.Exporter\obj\Debug\RF.Utilies.Exporter.csproj.CoreCompileInputs.cache
+C:\DEV\Advanced\RF.VehicleTracker\RF.Utilies.Exporter\obj\Debug\RF.Utilies.Exporter.dll
+C:\DEV\Advanced\RF.VehicleTracker\RF.Utilies.Exporter\obj\Debug\RF.Utilies.Exporter.pdb

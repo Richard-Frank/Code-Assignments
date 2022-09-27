@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="38830391-2667-447f-b6d6-e8ca18751775" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58096/Make.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Make.xsd" MetadataType="Schema" ID="447a03ca-ae66-4ce4-86d5-9c5bc6d3d58c" SourceId="1" SourceUrl="http://localhost:58096/Make.svc?xsd=xsd2" />
+    <MetadataFile FileName="Make.wsdl" MetadataType="Wsdl" ID="03bd8387-38a8-4a2b-ba9b-6ca55a8445fa" SourceId="1" SourceUrl="http://localhost:58096/Make.svc?wsdl" />
+    <MetadataFile FileName="Make1.xsd" MetadataType="Schema" ID="73d0a9df-f350-435a-a083-85537c0c0ce1" SourceId="1" SourceUrl="http://localhost:58096/Make.svc?xsd=xsd0" />
+    <MetadataFile FileName="Make2.xsd" MetadataType="Schema" ID="2cf3d734-e131-4f6f-ac74-07b8aae933c6" SourceId="1" SourceUrl="http://localhost:58096/Make.svc?xsd=xsd1" />
+    <MetadataFile FileName="Make.disco" MetadataType="Disco" ID="301e1695-5766-4df0-8559-791bb861c170" SourceId="1" SourceUrl="http://localhost:58096/Make.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[tblAnswer]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [AnswerText] VARCHAR(250) NOT NULL, 
+)

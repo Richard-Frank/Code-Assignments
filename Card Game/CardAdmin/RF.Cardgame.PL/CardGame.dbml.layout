@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.5, 8.5" name="CardGame">
+  <DataContextMoniker Name="/CardGameDataContext" />
+  <nestedChildShapes>
+    <classShape Id="243187e8-fa58-4243-a7b5-576ac910741c" absoluteBounds="9.25, 3.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/CardGameDataContext/tblCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="37a82e45-4b67-4586-8d51-a1e2c1f7f7ba" absoluteBounds="9.265, 3.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05071b11-16f8-4f58-a120-d4624394313d" absoluteBounds="4.75, 3.5, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/CardGameDataContext/tblDeck" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7fc3ae46-a92f-48f1-bb29-da08a54cfb39" absoluteBounds="4.7650000000000006, 3.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1ab23a4d-1c46-423f-a7e3-b1371e6f534a" absoluteBounds="7, 3.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/CardGameDataContext/tblDeckCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e906a5c-b937-4150-9a10-d327919bfd25" absoluteBounds="7.015, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e057bc4b-23f0-4b79-88cb-bf136939eac3" absoluteBounds="6.25, 1.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CardGameDataContext/tblGame" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44a9383c-5749-4f98-ae0f-8eeb07c3e053" absoluteBounds="6.2650000000000006, 2.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c4ac3500-2d54-4543-89a5-ed1a025c6fc4" absoluteBounds="0.5, 3.25, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/CardGameDataContext/tblPlayer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="874d8d99-63a3-41c8-af9f-1dfee9f8897d" absoluteBounds="0.51500000000000012, 3.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ccb2b147-dee2-48d5-890b-7d8576b2db95" absoluteBounds="2.625, 3.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/CardGameDataContext/tblPlayerDeck" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93aab2ea-8787-4fab-b968-69c97c15514d" absoluteBounds="2.6399999999999997, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="30ac7284-1a2d-4e7a-9c0e-18aef2df0ee4" absoluteBounds="4.125, 1.875, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/CardGameDataContext/tblAdmin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2f132ad-61c2-48b3-b0ba-b04125caa4aa" absoluteBounds="4.14, 2.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b73f991-1858-4a1a-ac43-cdfea8ea6cc7" absoluteBounds="5, 5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/CardGameDataContext/ErrorLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41f9a56d-2903-4c4b-bf3a-4af9c75db4cd" absoluteBounds="5.015, 5.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

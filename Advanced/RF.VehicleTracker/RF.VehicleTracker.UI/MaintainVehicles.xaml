@@ -1,0 +1,28 @@
+﻿<Window x:Class="RF.VehicleTracker.UI.MaintainVehicles"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RF.VehicleTracker.UI"
+        mc:Ignorable="d"
+        Title="MaintainVehicles" Height="310" Width="550">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FF09E8AB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <DataGrid x:Name="dgVehicles" HorizontalAlignment="Left" Height="212" Margin="10,10,0,0" VerticalAlignment="Top" Width="429"/>
+        <Button x:Name="btnMakes" Content="Makes" HorizontalAlignment="Left" Margin="457,40,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="btnMakes_Click"/>
+        <Button x:Name="btnModels" Content="Models" HorizontalAlignment="Left" Margin="457,70,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="btnModels_Click"/>
+        <Button x:Name="btnColors" Content="Colors" HorizontalAlignment="Left" Margin="457,10,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="btnColors_Click"/>
+        <ComboBox x:Name="cboColor" HorizontalAlignment="Left" Margin="412,239,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboColor_SelectionChanged"/>
+        <Button x:Name="btnLoad" Content="Load" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="btnLoad_Click"/>
+        <Button x:Name="btnLoadSP" Content="Load SP" HorizontalAlignment="Left" Margin="90,239,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="btnLoadSP_Click"/>
+        <Button x:Name="btnEdit" Content="Edit" HorizontalAlignment="Left" Margin="170,239,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="btnEdit_Click"/>
+        <Button x:Name="btnNew" Content="New" HorizontalAlignment="Left" Margin="250,239,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="btnNew_Click"/>
+        <Button x:Name="btnExport" Content="Export" HorizontalAlignment="Left" Margin="330,239,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="btnExport_Click"/>
+
+    </Grid>
+</Window>

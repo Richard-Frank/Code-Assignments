@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3e58835b-8775-4ee7-86fd-d2f357167148" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://rfVehicleTracker.azurewebsites.net/Color.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Color.xsd" MetadataType="Schema" ID="598c81b9-8837-4a73-bf8d-a3bad946df97" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Color.svc?xsd=xsd1" />
+    <MetadataFile FileName="Color1.xsd" MetadataType="Schema" ID="0e54853a-9bc4-4eaf-897c-bda133b12d68" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Color.svc?xsd=xsd0" />
+    <MetadataFile FileName="Color.wsdl" MetadataType="Wsdl" ID="c761d8ce-5c54-4fa0-bb61-d4baf6f98286" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Color.svc?wsdl" />
+    <MetadataFile FileName="Color2.xsd" MetadataType="Schema" ID="63d68df3-0f85-4df7-af06-fa29dc0b90bb" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Color.svc?xsd=xsd2" />
+    <MetadataFile FileName="Color.disco" MetadataType="Disco" ID="591b83ff-3917-4496-80a2-7360878fb7b0" SourceId="1" SourceUrl="http://rfvehicletracker.azurewebsites.net/Color.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

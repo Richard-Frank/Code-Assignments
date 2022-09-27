@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="RF.VehicleTracker.SL.Color" CodeBehind="Color.svc.cs" %>

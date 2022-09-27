@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="RF.SurveyQuestion.SL.Quizzer" CodeBehind="Quizzer.svc.cs" %>

@@ -1,0 +1,13 @@
+C:\DEV\Banking\Banking.UI\bin\Debug\Banking.UI.exe.config
+C:\DEV\Banking\Banking.UI\obj\Debug\Banking.UI.csprojResolveAssemblyReference.cache
+C:\DEV\Banking\Banking.UI\obj\Debug\Banking.UI.frmBanking.resources
+C:\DEV\Banking\Banking.UI\obj\Debug\Banking.UI.Properties.Resources.resources
+C:\DEV\Banking\Banking.UI\obj\Debug\Banking.UI.csproj.GenerateResource.Cache
+C:\DEV\Banking\Banking.UI\bin\Debug\Banking.UI.exe
+C:\DEV\Banking\Banking.UI\bin\Debug\Banking.UI.pdb
+C:\DEV\Banking\Banking.UI\bin\Debug\Banking.BL.dll
+C:\DEV\Banking\Banking.UI\bin\Debug\Banking.BL.pdb
+C:\DEV\Banking\Banking.UI\obj\Debug\Banking.UI.exe
+C:\DEV\Banking\Banking.UI\obj\Debug\Banking.UI.pdb
+C:\DEV\Banking\Banking.UI\bin\Debug\Banking.PL.dll
+C:\DEV\Banking\Banking.UI\bin\Debug\Banking.PL.pdb

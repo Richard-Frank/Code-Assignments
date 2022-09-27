@@ -1,0 +1,17 @@
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.UI.exe.config
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.UI.exe
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.UI.pdb
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.BL.dll
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.BL.pdb
+C:\DEV\Intermediate\Computerland\Computerland.UI\obj\Debug\Computerland.UI.csprojResolveAssemblyReference.cache
+C:\DEV\Intermediate\Computerland\Computerland.UI\obj\Debug\Computerland.UI.frmComputerland.resources
+C:\DEV\Intermediate\Computerland\Computerland.UI\obj\Debug\Computerland.UI.Properties.Resources.resources
+C:\DEV\Intermediate\Computerland\Computerland.UI\obj\Debug\Computerland.UI.csproj.GenerateResource.Cache
+C:\DEV\Intermediate\Computerland\Computerland.UI\obj\Debug\Computerland.UI.exe
+C:\DEV\Intermediate\Computerland\Computerland.UI\obj\Debug\Computerland.UI.pdb
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.Interfaces.dll
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.PL.dll
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Utilites.CustomExceptions.dll
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.Interfaces.pdb
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Computerland.PL.pdb
+C:\DEV\Intermediate\Computerland\Computerland.UI\bin\Debug\Utilites.CustomExceptions.pdb

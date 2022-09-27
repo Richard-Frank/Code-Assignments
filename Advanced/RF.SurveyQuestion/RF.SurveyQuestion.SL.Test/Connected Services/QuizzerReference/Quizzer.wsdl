@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Quizzer" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51979/Quizzer.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51979/Quizzer.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51979/Quizzer.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RF.SurveyQuestion.BL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IQuizzer_LoadQuestions_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadQuestions" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_LoadQuestions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadQuestionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_InsertActivator_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertActivator" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_InsertActivator_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertActivatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_DeleteActivator_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteActivator" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_DeleteActivator_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteActivatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_UpdateActivator_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateActivator" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_UpdateActivator_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateActivatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_LoadQuestionById_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadQuestionById" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_LoadQuestionById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadQuestionByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_LoadActivations_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadActivations" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_LoadActivations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadActivationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_LoadAnswersByQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAnswersByQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_LoadAnswersByQuestion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAnswersByQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_InsertResponse_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizzer_InsertResponse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertResponseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IQuizzer">
+    <wsdl:operation name="LoadQuestions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizzer/LoadQuestions" message="tns:IQuizzer_LoadQuestions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizzer/LoadQuestionsResponse" message="tns:IQuizzer_LoadQuestions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertActivator">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizzer/InsertActivator" message="tns:IQuizzer_InsertActivator_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizzer/InsertActivatorResponse" message="tns:IQuizzer_InsertActivator_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteActivator">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizzer/DeleteActivator" message="tns:IQuizzer_DeleteActivator_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizzer/DeleteActivatorResponse" message="tns:IQuizzer_DeleteActivator_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateActivator">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizzer/UpdateActivator" message="tns:IQuizzer_UpdateActivator_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizzer/UpdateActivatorResponse" message="tns:IQuizzer_UpdateActivator_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadQuestionById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizzer/LoadQuestionById" message="tns:IQuizzer_LoadQuestionById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizzer/LoadQuestionByIdResponse" message="tns:IQuizzer_LoadQuestionById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadActivations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizzer/LoadActivations" message="tns:IQuizzer_LoadActivations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizzer/LoadActivationsResponse" message="tns:IQuizzer_LoadActivations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadAnswersByQuestion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizzer/LoadAnswersByQuestion" message="tns:IQuizzer_LoadAnswersByQuestion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizzer/LoadAnswersByQuestionResponse" message="tns:IQuizzer_LoadAnswersByQuestion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertResponse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizzer/InsertResponse" message="tns:IQuizzer_InsertResponse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizzer/InsertResponseResponse" message="tns:IQuizzer_InsertResponse_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IQuizzer" type="tns:IQuizzer">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoadQuestions">
+      <soap:operation soapAction="http://tempuri.org/IQuizzer/LoadQuestions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertActivator">
+      <soap:operation soapAction="http://tempuri.org/IQuizzer/InsertActivator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteActivator">
+      <soap:operation soapAction="http://tempuri.org/IQuizzer/DeleteActivator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateActivator">
+      <soap:operation soapAction="http://tempuri.org/IQuizzer/UpdateActivator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadQuestionById">
+      <soap:operation soapAction="http://tempuri.org/IQuizzer/LoadQuestionById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadActivations">
+      <soap:operation soapAction="http://tempuri.org/IQuizzer/LoadActivations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadAnswersByQuestion">
+      <soap:operation soapAction="http://tempuri.org/IQuizzer/LoadAnswersByQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertResponse">
+      <soap:operation soapAction="http://tempuri.org/IQuizzer/InsertResponse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Quizzer">
+    <wsdl:port name="BasicHttpBinding_IQuizzer" binding="tns:BasicHttpBinding_IQuizzer">
+      <soap:address location="http://localhost:51979/Quizzer.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

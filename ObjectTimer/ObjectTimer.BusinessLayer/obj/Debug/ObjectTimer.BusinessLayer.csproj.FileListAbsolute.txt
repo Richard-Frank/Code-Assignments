@@ -1,0 +1,7 @@
+C:\DEV\ObjectTimer\ObjectTimer.BusinessLayer\bin\Debug\ObjectTimer.BusinessLayer.dll
+C:\DEV\ObjectTimer\ObjectTimer.BusinessLayer\bin\Debug\ObjectTimer.BusinessLayer.pdb
+C:\DEV\ObjectTimer\ObjectTimer.BusinessLayer\obj\Debug\ObjectTimer.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\DEV\ObjectTimer\ObjectTimer.BusinessLayer\obj\Debug\ObjectTimer.BusinessLayer.dll
+C:\DEV\ObjectTimer\ObjectTimer.BusinessLayer\obj\Debug\ObjectTimer.BusinessLayer.pdb
+C:\DEV\ObjectTimer\ObjectTimer.BusinessLayer\bin\Debug\ObjectTimer.CustomExceptions.dll
+C:\DEV\ObjectTimer\ObjectTimer.BusinessLayer\bin\Debug\ObjectTimer.CustomExceptions.pdb

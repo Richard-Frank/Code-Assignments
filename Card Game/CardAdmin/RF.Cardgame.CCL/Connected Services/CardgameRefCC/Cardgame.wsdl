@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Cardgame" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:49557/Cardgame.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:49557/Cardgame.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:49557/Cardgame.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RF.Cardgame.BL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICardgame_LoadAdmins_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAdmins" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadAdmins_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAdminsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadAdminById_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAdminById" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadAdminById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAdminByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAdmin" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdateAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdmin" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdateAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeleteAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAdmin" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeleteAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoginAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginAdmin" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoginAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadPlayers_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadPlayers" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadPlayers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadPlayersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadPlayerById_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadPlayerById" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadPlayerById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadPlayerByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertPlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertPlayer" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertPlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertPlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdatePlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePlayer" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdatePlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeletePlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePlayer" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeletePlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoginPlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginPlayer" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoginPlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginPlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_GetPlayerByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlayerByName" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_GetPlayerByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlayerByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadCards_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCards" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadCards_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCardsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadCardById_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCardById" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadCardById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCardByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertCard_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertCard" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertCard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdateCard_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCard" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdateCard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeleteCard_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCard" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeleteCard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadDecks_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDecks" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadDecks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDecksResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadDeckById_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDeckById" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadDeckById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDeckByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertDeck_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDeck" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertDeck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDeckResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdateDeck_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDeck" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdateDeck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDeckResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeleteDeck_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDeck" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeleteDeck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDeckResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_AssignCards_InputMessage">
+    <wsdl:part name="parameters" element="tns:AssignCards" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_AssignCards_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AssignCardsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_SPGetDecksByPlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:SPGetDecksByPlayer" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_SPGetDecksByPlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SPGetDecksByPlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadGames_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadGames" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadGames_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadGamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadGameById_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadGameById" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_LoadGameById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadGameByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGame" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_InsertGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdateGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGame" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_UpdateGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeleteGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGame" />
+  </wsdl:message>
+  <wsdl:message name="ICardgame_DeleteGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICardgame">
+    <wsdl:operation name="LoadAdmins">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadAdmins" message="tns:ICardgame_LoadAdmins_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadAdminsResponse" message="tns:ICardgame_LoadAdmins_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadAdminById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadAdminById" message="tns:ICardgame_LoadAdminById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadAdminByIdResponse" message="tns:ICardgame_LoadAdminById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/InsertAdmin" message="tns:ICardgame_InsertAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/InsertAdminResponse" message="tns:ICardgame_InsertAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/UpdateAdmin" message="tns:ICardgame_UpdateAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/UpdateAdminResponse" message="tns:ICardgame_UpdateAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/DeleteAdmin" message="tns:ICardgame_DeleteAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/DeleteAdminResponse" message="tns:ICardgame_DeleteAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoginAdmin" message="tns:ICardgame_LoginAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoginAdminResponse" message="tns:ICardgame_LoginAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadPlayers">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadPlayers" message="tns:ICardgame_LoadPlayers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadPlayersResponse" message="tns:ICardgame_LoadPlayers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadPlayerById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadPlayerById" message="tns:ICardgame_LoadPlayerById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadPlayerByIdResponse" message="tns:ICardgame_LoadPlayerById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertPlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/InsertPlayer" message="tns:ICardgame_InsertPlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/InsertPlayerResponse" message="tns:ICardgame_InsertPlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/UpdatePlayer" message="tns:ICardgame_UpdatePlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/UpdatePlayerResponse" message="tns:ICardgame_UpdatePlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/DeletePlayer" message="tns:ICardgame_DeletePlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/DeletePlayerResponse" message="tns:ICardgame_DeletePlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginPlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoginPlayer" message="tns:ICardgame_LoginPlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoginPlayerResponse" message="tns:ICardgame_LoginPlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlayerByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/GetPlayerByName" message="tns:ICardgame_GetPlayerByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/GetPlayerByNameResponse" message="tns:ICardgame_GetPlayerByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCards">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadCards" message="tns:ICardgame_LoadCards_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadCardsResponse" message="tns:ICardgame_LoadCards_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCardById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadCardById" message="tns:ICardgame_LoadCardById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadCardByIdResponse" message="tns:ICardgame_LoadCardById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertCard">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/InsertCard" message="tns:ICardgame_InsertCard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/InsertCardResponse" message="tns:ICardgame_InsertCard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCard">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/UpdateCard" message="tns:ICardgame_UpdateCard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/UpdateCardResponse" message="tns:ICardgame_UpdateCard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCard">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/DeleteCard" message="tns:ICardgame_DeleteCard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/DeleteCardResponse" message="tns:ICardgame_DeleteCard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadDecks">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadDecks" message="tns:ICardgame_LoadDecks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadDecksResponse" message="tns:ICardgame_LoadDecks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadDeckById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadDeckById" message="tns:ICardgame_LoadDeckById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadDeckByIdResponse" message="tns:ICardgame_LoadDeckById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDeck">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/InsertDeck" message="tns:ICardgame_InsertDeck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/InsertDeckResponse" message="tns:ICardgame_InsertDeck_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeck">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/UpdateDeck" message="tns:ICardgame_UpdateDeck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/UpdateDeckResponse" message="tns:ICardgame_UpdateDeck_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDeck">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/DeleteDeck" message="tns:ICardgame_DeleteDeck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/DeleteDeckResponse" message="tns:ICardgame_DeleteDeck_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AssignCards">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/AssignCards" message="tns:ICardgame_AssignCards_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/AssignCardsResponse" message="tns:ICardgame_AssignCards_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SPGetDecksByPlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/SPGetDecksByPlayer" message="tns:ICardgame_SPGetDecksByPlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/SPGetDecksByPlayerResponse" message="tns:ICardgame_SPGetDecksByPlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadGames">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadGames" message="tns:ICardgame_LoadGames_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadGamesResponse" message="tns:ICardgame_LoadGames_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadGameById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/LoadGameById" message="tns:ICardgame_LoadGameById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/LoadGameByIdResponse" message="tns:ICardgame_LoadGameById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/InsertGame" message="tns:ICardgame_InsertGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/InsertGameResponse" message="tns:ICardgame_InsertGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/UpdateGame" message="tns:ICardgame_UpdateGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/UpdateGameResponse" message="tns:ICardgame_UpdateGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICardgame/DeleteGame" message="tns:ICardgame_DeleteGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICardgame/DeleteGameResponse" message="tns:ICardgame_DeleteGame_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICardgame" type="tns:ICardgame">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoadAdmins">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadAdmins" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadAdminById">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadAdminById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAdmin">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/InsertAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdmin">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/UpdateAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAdmin">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/DeleteAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginAdmin">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoginAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadPlayers">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadPlayers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadPlayerById">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadPlayerById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPlayer">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/InsertPlayer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePlayer">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/UpdatePlayer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlayer">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/DeletePlayer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginPlayer">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoginPlayer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlayerByName">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/GetPlayerByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCards">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadCards" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCardById">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadCardById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertCard">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/InsertCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCard">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/UpdateCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCard">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/DeleteCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadDecks">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadDecks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadDeckById">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadDeckById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDeck">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/InsertDeck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeck">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/UpdateDeck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDeck">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/DeleteDeck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignCards">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/AssignCards" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SPGetDecksByPlayer">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/SPGetDecksByPlayer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadGames">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadGames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadGameById">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/LoadGameById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertGame">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/InsertGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/UpdateGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame">
+      <soap:operation soapAction="http://tempuri.org/ICardgame/DeleteGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Cardgame">
+    <wsdl:port name="BasicHttpBinding_ICardgame" binding="tns:BasicHttpBinding_ICardgame">
+      <soap:address location="http://localhost:49557/Cardgame.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

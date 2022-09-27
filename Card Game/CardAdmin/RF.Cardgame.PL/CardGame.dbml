@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="rfrankdb" Class="CardGameDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=rfrank.database.windows.net;Initial Catalog=rfrankdb;User ID=rfrankdb" SettingsObjectName="RF.Cardgame.PL.Properties.Settings" SettingsPropertyName="rfrankdbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblCard" Member="tblCards">
+    <Type Name="tblCard">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="Attack" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Health" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblDeck" Member="tblDecks">
+    <Type Name="tblDeck">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblDeckCards" Member="tblDeckCards">
+    <Type Name="tblDeckCard">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DeckId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CardId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblGame" Member="tblGames">
+    <Type Name="tblGame">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PlayerId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="OpponentId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="MatchDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPlayer" Member="tblPlayers">
+    <Type Name="tblPlayer">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="Wins" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Losses" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPlayerDeck" Member="tblPlayerDecks">
+    <Type Name="tblPlayerDeck">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PlayerId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="DeckId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAdmin" Member="tblAdmins">
+    <Type Name="tblAdmin">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(45) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(45) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ErrorLog" Member="ErrorLogs">
+    <Type Name="ErrorLog">
+      <Column Name="ErrDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ErrThread" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ErrLevel" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ErrLogger" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ErrMessage" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="ErrUser" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.spDeleteCards" Method="spDeleteCards">
+    <Parameter Name="cardId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.spDeleteDecks" Method="spDeleteDecks">
+    <Parameter Name="deckId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.spGetDecksByPlayer" Method="spGetDecksByPlayer">
+    <Parameter Name="playerId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="spGetDecksByPlayerResult">
+      <Column Name="DeckId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.spGetCardsByDeck" Method="spGetCardsByDeck">
+    <Parameter Name="deckId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="spGetCardsByDeckResult">
+      <Column Name="CardId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="Attack" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Health" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,20 @@
+﻿RF.CardAdmin.UI
+
+
+winexe
+C#
+.cs
+C:\DEV\Card Game\CardAdmin\RF.CardAdmin.UI\obj\Debug\
+RF.CardAdmin.UI
+none
+false
+DEBUG;TRACE
+C:\DEV\Card Game\CardAdmin\RF.CardAdmin.UI\App.xaml
+5-327022381
+
+111499766061
+181134823056
+AdminDashboard.xaml;AdminManageCard.xaml;CreateDeck.xaml;LoginWindow.xaml;PlayerDashboard.xaml;
+
+False
+

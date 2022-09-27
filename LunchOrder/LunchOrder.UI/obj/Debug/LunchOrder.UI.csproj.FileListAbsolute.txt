@@ -1,0 +1,9 @@
+C:\DEV\LunchOrder\LunchOrder.UI\bin\Debug\LunchOrder.UI.exe.config
+C:\DEV\LunchOrder\LunchOrder.UI\bin\Debug\LunchOrder.UI.exe
+C:\DEV\LunchOrder\LunchOrder.UI\bin\Debug\LunchOrder.UI.pdb
+C:\DEV\LunchOrder\LunchOrder.UI\obj\Debug\LunchOrder.UI.csprojResolveAssemblyReference.cache
+C:\DEV\LunchOrder\LunchOrder.UI\obj\Debug\LunchOrder.UI.frmLunchOrder.resources
+C:\DEV\LunchOrder\LunchOrder.UI\obj\Debug\LunchOrder.UI.Properties.Resources.resources
+C:\DEV\LunchOrder\LunchOrder.UI\obj\Debug\LunchOrder.UI.csproj.GenerateResource.Cache
+C:\DEV\LunchOrder\LunchOrder.UI\obj\Debug\LunchOrder.UI.exe
+C:\DEV\LunchOrder\LunchOrder.UI\obj\Debug\LunchOrder.UI.pdb

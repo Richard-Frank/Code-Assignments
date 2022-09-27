@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 1: High-Low</title>
+</head>
+<body>
+    <header>
+        <h1>High / Low Game</h1>
+        <hr>
+    </header>
+    <article>
+        <input type="text" id="userInput" />
+        <input type="button" value="Guess Number" onclick="sayHigh()"/>
+
+    </article>
+
+
+    <script>
+
+        function sayHigh()
+        {
+            //All on one line
+            //let number = Math.floor(Math.random() * 10)
+
+            let answer;
+            let userNumber = document.getElementById("userInput").value;
+
+            if (isNaN(userNumber) || userNumber == "")
+            {// If is not a number.
+                window.alert("Please enter a valid number.");
+                return;
+            }
+            else
+            { userNumber = parseInt(userNumber)}
+
+            //Generates a random number.
+            let number = Math.random() * 10;
+            //Rounds the number down to a whole number.
+            number =  Math.floor(number);
+            //console.log(number);
+
+            if(number < userNumber)
+            {
+                answer = "Too high";
+            }
+            else if(number === userNumber)
+            {//Triple === checks to see if the value is that same, AND the data type is the same. Which is why this code is being used above: { userNumber = parseInt(userNumber)}
+                answer = "Right on the money!";
+            }
+            else
+            {
+                answer = "Too low.";
+            }
+
+            alert(answer)
+            alert("Your number is: " + userNumber)
+            alert("The computer's number is " + number)
+        }
+
+    </script>
+</body>
+</html>

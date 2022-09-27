@@ -1,0 +1,11 @@
+C:\DEV\Calculator\Calculator.proj\bin\Debug\Calculator.proj.exe.config
+C:\DEV\Calculator\Calculator.proj\bin\Debug\Calculator.proj.exe
+C:\DEV\Calculator\Calculator.proj\bin\Debug\Calculator.proj.pdb
+C:\DEV\Calculator\Calculator.proj\bin\Debug\Calculator.BusinessLayer.dll
+C:\DEV\Calculator\Calculator.proj\bin\Debug\Calculator.BusinessLayer.pdb
+C:\DEV\Calculator\Calculator.proj\obj\Debug\Calculator.proj.csprojResolveAssemblyReference.cache
+C:\DEV\Calculator\Calculator.proj\obj\Debug\Calculator.proj.frmCalculator.resources
+C:\DEV\Calculator\Calculator.proj\obj\Debug\Calculator.proj.Properties.Resources.resources
+C:\DEV\Calculator\Calculator.proj\obj\Debug\Calculator.proj.csproj.GenerateResource.Cache
+C:\DEV\Calculator\Calculator.proj\obj\Debug\Calculator.proj.exe
+C:\DEV\Calculator\Calculator.proj\obj\Debug\Calculator.proj.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Menu Program", "Menu Program\Menu Program.vcxproj", "{6C0385E7-5961-42D4-82AA-265F6B8D4F6B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://richardfrank.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Menu\u0020Program\\Menu\u0020Program.vcxproj
+		SccProjectName1 = Menu\u0020Program
+		SccLocalPath1 = Menu\u0020Program
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C0385E7-5961-42D4-82AA-265F6B8D4F6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C0385E7-5961-42D4-82AA-265F6B8D4F6B}.Debug|Win32.Build.0 = Debug|Win32
+		{6C0385E7-5961-42D4-82AA-265F6B8D4F6B}.Release|Win32.ActiveCfg = Release|Win32
+		{6C0385E7-5961-42D4-82AA-265F6B8D4F6B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

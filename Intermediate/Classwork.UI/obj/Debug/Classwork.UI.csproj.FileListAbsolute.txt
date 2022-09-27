@@ -1,0 +1,13 @@
+C:\DEV\Intermediate\Classwork.UI\bin\Debug\Classwork.UI.exe.config
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.csprojResolveAssemblyReference.cache
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.frmArray.resources
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.frmChild.resources
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.frmParent.resources
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.frmPlayer.resources
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.frmStudent.resources
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.Properties.Resources.resources
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.csproj.GenerateResource.Cache
+C:\DEV\Intermediate\Classwork.UI\bin\Debug\Classwork.UI.exe
+C:\DEV\Intermediate\Classwork.UI\bin\Debug\Classwork.UI.pdb
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.exe
+C:\DEV\Intermediate\Classwork.UI\obj\Debug\Classwork.UI.pdb

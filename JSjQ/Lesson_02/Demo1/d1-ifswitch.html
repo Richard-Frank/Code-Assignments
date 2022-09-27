@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 1: If & Switch</title>
+
+    <script>
+        /* Standard structure
+        ++GLOBAL VARIABLES++
+        
+        ++INPUT++
+
+        ++PROCESS / OUTPUT++
+        */
+
+        //Variables
+        "use strict"; //Helps code be more accurate.
+
+        let grade;
+
+        //Input
+//        grade = window.prompt("Please enter a letter grade.", "");
+
+        //Console prompt always returns a string.
+        console.log(typeof(grade));
+
+        //Because of case sensitivity, inputs must be formatted.
+        //grade = grade.toUpperCase();
+//        grade = grade.toLocaleUpperCase(); //LocalUpperCase formats for different languages.
+
+        console.log(grade);
+        //Process / Output
+
+        //Triple === compares value and data type.
+        /*
+        if(grade === "A")
+        {
+            alert("Excellent work.");
+        }
+        else if (grade === "B");
+        {
+            alert("Doing good.");
+        }
+        else if (grade === "C");
+        {
+            alert("Average.")
+        }
+        else if (grade === "D");
+        {
+            alert("Needs improvement.");
+        }
+        else if (grade === "F")
+        {
+            alert("Failing!");
+        }
+        else
+        {
+            alert("Please enter a valid letter grade: A, B, C, D, F");
+        }
+        */
+
+        //Pretty standard switch case.
+        /*switch(grade)
+        {
+            case"A":
+                alert("Excellent work!");
+                break;
+            case"B":
+                alert("Doing good.");
+                break;
+            case"C":
+                alert("Average.");
+                break;
+            case"D":
+                alert("Needs improvement.");
+                break;
+            case"F":
+                alert("Failing!");
+                break;
+            default:
+                alert("Please enter a valid letter grade: A, B, C, D, F");
+                break;
+        } */
+
+
+        grade = window.prompt("Please enter a numeric grade 0-100", "")
+
+        //grade = Number(grade);
+        //grade = parseInt(grade);
+        grade = parseFloat(grade);
+
+        //If a case is true, do case's action.
+        switch(true)
+        {
+            case (grade > 90 && grade <=100):
+                alert("Excellent work!");
+                break;
+            case (grade > 80 && grade <=90):
+                alert("Doing good.");
+                break;
+            case (grade > 70 && grade <=80):
+                alert("Average");
+                break;
+            case (grade > 60 && grade <=70):
+                alert("Needs improvement.");
+                break;
+            case (grade >= 0 && grade <=60):
+                alert("Failing");
+                break;
+            default:
+                alert("Please enter a valid numeric grade: 0-100");
+                break;
+
+        }
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

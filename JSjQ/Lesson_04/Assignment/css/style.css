@@ -1,0 +1,70 @@
+/*Body*/
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin-top: 20px;
+    font-size: 1em;
+    color: rgb(245, 237, 237);
+    background-image: url("../img/stars.jpg");
+    background-size: cover;
+}
+
+/*ID css*/
+#wrapper
+{
+    width: 1000px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(10, 10, 10, 0.9);
+}
+#inputspace
+{
+    background-color: rgb(221, 221, 220);
+    border: 10px;
+    border-style: groove;
+    border-color: rgb(4, 4, 48);
+    color: black;
+    height: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+#txtInput
+{
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#btnAsk
+{
+    text-align: center;
+    padding: 5px;
+    
+}
+#btnClear
+{
+    text-align: center;
+    padding: 5px;
+}
+#lblOutput
+{
+    font-size: 1.5em;
+}
+
+/*Element*/
+h1
+{
+    font-style: italic;
+    font-size: 1.5;
+    letter-spacing: 0.4em;
+}
+h2
+{
+    font-style: italic;
+    font-size: 1.2em;
+    letter-spacing: 0.4em;
+}

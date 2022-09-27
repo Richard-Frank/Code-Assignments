@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo 1: Modify Page</title>
+    <style>
+        #content1 div{
+            float:left;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+        }
+        #content1{
+            padding-top: 50px;
+            width: 900px;
+            text-align: center;
+            margin:0 auto;
+        }
+
+        .myfont
+        {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> //Found at: https://developers.google.com/speed/libraries#jquery</script>
+    <script src="scripts/d1-modifypage.js"></script>
+
+</head>
+<body>
+<h3>Do Something Cool</h3>
+
+    <div id="content1">
+        <div id="item1">
+            <img src="https://pbs.twimg.com/profile_images/378800000180275741/c4f9bbd5f22551cf75e505548ac2c7e4_400x400.jpeg">
+            <br /><p>Example text for the Red box</p><br /><br />
+            <a href="http://www.red.com">Red Box</a>
+        </div>
+        <div id="item2">
+            <img src="http://blueboxlive.com/bluebox.png">
+            <br /><p>Example text for the Blue box</p><br /><br />
+            <a href="http://www.blue.com">Blue Box</a>
+        </div>
+        <div id="item3">
+            <img src="https://4vector.com/i/free-vector-glowing-green-box_133096_Glowing_Green_Box.jpg">
+            <br /><p>Example text for the Green box</p><br /><br />
+            <a href="http://www.green.com">Green Box</a>
+        </div>
+    </div>
+</body>
+</html>

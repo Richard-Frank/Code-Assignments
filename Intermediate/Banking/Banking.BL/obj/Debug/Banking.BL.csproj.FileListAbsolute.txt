@@ -1,0 +1,10 @@
+C:\DEV\Intermediate\Banking\Banking.BL\bin\Debug\Banking.BL.dll
+C:\DEV\Intermediate\Banking\Banking.BL\bin\Debug\Banking.BL.pdb
+C:\DEV\Intermediate\Banking\Banking.BL\bin\Debug\Banking.PL.dll
+C:\DEV\Intermediate\Banking\Banking.BL\bin\Debug\Banking.PL.pdb
+C:\DEV\Intermediate\Banking\Banking.BL\bin\Debug\Banking.PL.dll.config
+C:\DEV\Intermediate\Banking\Banking.BL\obj\Debug\Banking.BL.csprojAssemblyReference.cache
+C:\DEV\Intermediate\Banking\Banking.BL\obj\Debug\Banking.BL.csproj.CoreCompileInputs.cache
+C:\DEV\Intermediate\Banking\Banking.BL\obj\Debug\Banking.BL.csproj.CopyComplete
+C:\DEV\Intermediate\Banking\Banking.BL\obj\Debug\Banking.BL.dll
+C:\DEV\Intermediate\Banking\Banking.BL\obj\Debug\Banking.BL.pdb

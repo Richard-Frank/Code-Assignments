@@ -1,0 +1,5 @@
+C:\DEV\ObjectTimer\ObjectTimer.CustomExceptions\obj\Debug\ObjectTimer.CustomExceptions.csprojResolveAssemblyReference.cache
+C:\DEV\ObjectTimer\ObjectTimer.CustomExceptions\bin\Debug\ObjectTimer.CustomExceptions.dll
+C:\DEV\ObjectTimer\ObjectTimer.CustomExceptions\bin\Debug\ObjectTimer.CustomExceptions.pdb
+C:\DEV\ObjectTimer\ObjectTimer.CustomExceptions\obj\Debug\ObjectTimer.CustomExceptions.dll
+C:\DEV\ObjectTimer\ObjectTimer.CustomExceptions\obj\Debug\ObjectTimer.CustomExceptions.pdb

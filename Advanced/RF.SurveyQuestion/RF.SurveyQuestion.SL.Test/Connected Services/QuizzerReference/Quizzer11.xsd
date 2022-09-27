@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/RF.SurveyQuestion.BL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RF.SurveyQuestion.BL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:51979/Quizzer.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfCQuestion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CQuestion" nillable="true" type="tns:CQuestion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCQuestion" nillable="true" type="tns:ArrayOfCQuestion" />
+  <xs:complexType name="CQuestion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Answers" nillable="true" type="tns:ArrayOfCAnswer" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CQuestion" nillable="true" type="tns:CQuestion" />
+  <xs:complexType name="ArrayOfCAnswer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CAnswer" nillable="true" type="tns:CAnswer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCAnswer" nillable="true" type="tns:ArrayOfCAnswer" />
+  <xs:complexType name="CAnswer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsCorrect" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CAnswer" nillable="true" type="tns:CAnswer" />
+  <xs:complexType name="ArrayOfCActivation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CActivation" nillable="true" type="tns:CActivation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCActivation" nillable="true" type="tns:ArrayOfCActivation" />
+  <xs:complexType name="CActivation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ActCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Enddate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="QuesId" type="ser:guid" />
+      <xs:element minOccurs="0" name="Startdate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CActivation" nillable="true" type="tns:CActivation" />
+  <xs:complexType name="ArrayOfCQA">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CQA" nillable="true" type="tns:CQA" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCQA" nillable="true" type="tns:ArrayOfCQA" />
+  <xs:complexType name="CQA">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AnswerText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnwId" type="ser:guid" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsCorrect" type="xs:boolean" />
+      <xs:element minOccurs="0" name="QuId" type="ser:guid" />
+      <xs:element minOccurs="0" name="QuestionText" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CQA" nillable="true" type="tns:CQA" />
+</xs:schema>

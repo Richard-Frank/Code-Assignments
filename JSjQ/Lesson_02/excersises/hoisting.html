@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoisting</title>
+</head>
+<body>
+    <!--A junk demo to demonstrate the hoisting of variables-->
+    <section>
+        <script>
+            //Hoisting is using a variable above where they are declared.
+
+            //Variables declared under where they supposed to use.
+            //Name cannot be hoisted, name2 may be hoisted and display correctly, or be hoisted and appear as undefined.
+            //Undefined means that the program know there is a variable, but does not know the value.
+
+            trial();
+            trail2();
+
+            console.log(name)
+            console.log(name2)
+
+            let name = "Cannot be hoisted"
+            var name2 = "Hoisted"
+
+            trial();
+            trail2();
+
+            function trial()
+            {//Named functions can be hoisted. Best practice is not to hoist however.
+                console.log("In function")
+            }
+            var trail2 = function()
+            {//Function expressions cannot be hoisted, as they are like variables.
+                console.log("In function 2")
+            }
+
+            trial();
+            trail2();
+        </script>
+    </section>
+</body>
+</html>

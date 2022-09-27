@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attach/Detach</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+
+        $(function(){
+
+            //The $ denotes a collection.
+            let $storePop;
+            let $storeCountry;
+            let $storeTechno;
+            let $storeRap;
+
+            $('#btnSort').click(function() {
+
+                //Removes from page, but keeps in memory.
+                $storePop = $('.pop').detach();
+                $storeCountry = $('.country').detach();
+                $storeRap = $('.rap').detach();
+                $storeTechno = $('.techno').detach();
+
+            });
+
+            $('#btnPop').click(function() { 
+                //Add pop artists to sorted list.
+                $('#pop').append($storePop);
+
+                //Print a single artist from collection.
+                //$('#pop').append($storePop[2]);
+
+            });
+            $('#btnCountry').click(function() { 
+                //Add country artists to sorted list.
+                $('#country').append($storeCountry);
+
+            });
+            $('#btnRap').click(function() { 
+                //Add rap artists to sorted list.
+                $('#rap').append($storeRap);
+
+            });
+            $('#btnTechno').click(function() { 
+                //Add Techno artists to sorted list.
+                $('#techno').append($storeTechno);
+
+            });
+
+        });
+
+    </script>
+
+    <style>
+        /*STYLE RULES*/
+        #container{
+            width: 1200px;
+            height: 700px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        #unsorted{
+            width: 300px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .genre{
+            width: 300px;
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="unsorted">
+            <h3>Unsorted Artist</h3>
+            <ul>
+                <li class="pop">Bruno Mars</li>
+                <li class="rap">Kanye West</li>
+                <li class="country">Garth Brooks</li>
+                <li class="pop">Katy Perry</li>
+                <li class="techno">Deadmau5</li>
+                <li class="rap">Eminem</li>
+                <li class="country">Keith Urban</li>
+                <li class="pop">Rihanna</li>
+                <li class="techno">The Prodigy</li>
+                <li class="country">Brad Paisley</li>
+                <li class="techno">Tiesto</li>
+                <li class="pop">Maroon 5</li>
+                <li class="rap">Dr. Dre</li>
+                <li class="country">Willie Nelson</li>
+                <li class="pop">Bruno Mars</li>
+            </ul>
+            <input type="button" id="btnSort" name="btnSort" value="Sort Artists" />
+            <br>
+            <br>
+        </div><!--End of Unsorted-->
+        <div class="genre">
+            <h3>Pop Music</h3>
+            <ul id="pop">
+                <li>Ed Sheeran</li>
+            </ul>
+            <input type="button" id="btnPop" name="btnPop" value="Add Pop Artist" />
+        </div><!--End of Pop Genre-->
+        <div class="genre">
+            <h3>Country Music</h3>
+            <ul id="country">
+                <li>Tim McGraw</li>
+            </ul>
+            <input type="button" id="btnCountry" name="btnCountry" value="Add Country Artist" />
+        </div><!--End of Country Genre-->
+        <div class="genre">
+            <h3>Techno Music</h3>
+            <ul id="techno">
+                <li>Moby</li>
+            </ul>
+            <input type="button" id="btnTechno" name="btnTechno" value="Add Techno Artist" />
+        </div><!--End of Techno Genre-->
+        <div class="genre">
+            <h3>Rap Music</h3>
+            <ul id="rap">
+                <li>Jay-Z</li>
+            </ul>
+            <input type="button" id="btnRap" name="btnRap" value="Add Rap Artist" />
+        </div><!--End of Rap Genre-->
+    </div>
+</body>
+</html>

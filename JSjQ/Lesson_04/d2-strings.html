@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 2: Strings</title>
+
+    <script>
+        let myString = "Hello World is cool!";
+        let myChar;
+
+        // 0 1 2 3 4 5 6 7 8 9
+        // H e l l o   W o r l d  i s  c o o l !
+
+        window.onload = function welcome()
+        {
+            myChar =  myString.charAt(6);
+            document.getElementById("lblDisplay").innerHTML = "The value is: " + myChar;
+            //To find a character at the end of a string length -1.
+        }
+
+        function WhatWas()
+        {
+            console.log(myString.indexOf("W"));
+            //Starts at W and goes 7 more characters.
+            console.log(myString.substr(myString.indexOf("W"), 7));
+        }
+
+    </script>
+
+
+</head>
+<body>
+    
+    <h1 id="lblDisplay">Test</h1>
+
+    <input type="button" value="What was" onclick="WhatWas()" />
+</body>
+</html>

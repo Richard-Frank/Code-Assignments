@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Color" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpsBinding_IColor_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://rfvehicletracker.azurewebsites.net/Color.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://rfvehicletracker.azurewebsites.net/Color.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://rfvehicletracker.azurewebsites.net/Color.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RF.VehicleTracker.BL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IColor_InsertObj_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertObj" />
+  </wsdl:message>
+  <wsdl:message name="IColor_InsertObj_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertObjResponse" />
+  </wsdl:message>
+  <wsdl:message name="IColor_GetColors_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetColors" />
+  </wsdl:message>
+  <wsdl:message name="IColor_GetColors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetColorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IColor_Insert_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insert" />
+  </wsdl:message>
+  <wsdl:message name="IColor_Insert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IColor_Update_InputMessage">
+    <wsdl:part name="parameters" element="tns:Update" />
+  </wsdl:message>
+  <wsdl:message name="IColor_Update_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IColor_Delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:Delete" />
+  </wsdl:message>
+  <wsdl:message name="IColor_Delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IColor_GetById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetById" />
+  </wsdl:message>
+  <wsdl:message name="IColor_GetById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IColor_UpdateObj_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateObj" />
+  </wsdl:message>
+  <wsdl:message name="IColor_UpdateObj_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateObjResponse" />
+  </wsdl:message>
+  <wsdl:message name="IColor_DeleteObj_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteObj" />
+  </wsdl:message>
+  <wsdl:message name="IColor_DeleteObj_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteObjResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IColor">
+    <wsdl:operation name="InsertObj">
+      <wsdl:input wsaw:Action="http://tempuri.org/IColor/InsertObj" message="tns:IColor_InsertObj_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IColor/InsertObjResponse" message="tns:IColor_InsertObj_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetColors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IColor/GetColors" message="tns:IColor_GetColors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IColor/GetColorsResponse" message="tns:IColor_GetColors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IColor/Insert" message="tns:IColor_Insert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IColor/InsertResponse" message="tns:IColor_Insert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsdl:input wsaw:Action="http://tempuri.org/IColor/Update" message="tns:IColor_Update_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IColor/UpdateResponse" message="tns:IColor_Update_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IColor/Delete" message="tns:IColor_Delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IColor/DeleteResponse" message="tns:IColor_Delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IColor/GetById" message="tns:IColor_GetById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IColor/GetByIdResponse" message="tns:IColor_GetById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateObj">
+      <wsdl:input wsaw:Action="http://tempuri.org/IColor/UpdateObj" message="tns:IColor_UpdateObj_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IColor/UpdateObjResponse" message="tns:IColor_UpdateObj_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObj">
+      <wsdl:input wsaw:Action="http://tempuri.org/IColor/DeleteObj" message="tns:IColor_DeleteObj_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IColor/DeleteObjResponse" message="tns:IColor_DeleteObj_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IColor" type="tns:IColor">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertObj">
+      <soap:operation soapAction="http://tempuri.org/IColor/InsertObj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetColors">
+      <soap:operation soapAction="http://tempuri.org/IColor/GetColors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <soap:operation soapAction="http://tempuri.org/IColor/Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap:operation soapAction="http://tempuri.org/IColor/Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <soap:operation soapAction="http://tempuri.org/IColor/Delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetById">
+      <soap:operation soapAction="http://tempuri.org/IColor/GetById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateObj">
+      <soap:operation soapAction="http://tempuri.org/IColor/UpdateObj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObj">
+      <soap:operation soapAction="http://tempuri.org/IColor/DeleteObj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpsBinding_IColor" type="tns:IColor">
+    <wsp:PolicyReference URI="#BasicHttpsBinding_IColor_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertObj">
+      <soap:operation soapAction="http://tempuri.org/IColor/InsertObj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetColors">
+      <soap:operation soapAction="http://tempuri.org/IColor/GetColors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <soap:operation soapAction="http://tempuri.org/IColor/Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap:operation soapAction="http://tempuri.org/IColor/Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <soap:operation soapAction="http://tempuri.org/IColor/Delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetById">
+      <soap:operation soapAction="http://tempuri.org/IColor/GetById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateObj">
+      <soap:operation soapAction="http://tempuri.org/IColor/UpdateObj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObj">
+      <soap:operation soapAction="http://tempuri.org/IColor/DeleteObj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Color">
+    <wsdl:port name="BasicHttpBinding_IColor" binding="tns:BasicHttpBinding_IColor">
+      <soap:address location="http://rfvehicletracker.azurewebsites.net/Color.svc" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpsBinding_IColor" binding="tns:BasicHttpsBinding_IColor">
+      <soap:address location="https://rfvehicletracker.azurewebsites.net/Color.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

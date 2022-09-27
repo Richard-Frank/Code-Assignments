@@ -1,0 +1,9 @@
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\bin\Debug\RCF.prgFileIO.UI.exe.config
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\bin\Debug\RCF.prgFileIO.UI.exe
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\bin\Debug\RCF.prgFileIO.UI.pdb
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\obj\Debug\RCF.prgFileIO.UI.csprojResolveAssemblyReference.cache
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\obj\Debug\RCF.prgFileIO.UI.frmFileIO.resources
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\obj\Debug\RCF.prgFileIO.UI.Properties.Resources.resources
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\obj\Debug\RCF.prgFileIO.UI.csproj.GenerateResource.Cache
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\obj\Debug\RCF.prgFileIO.UI.exe
+C:\DEV\RCF.prgFileIO\RCF.prgFileIO.UI\obj\Debug\RCF.prgFileIO.UI.pdb

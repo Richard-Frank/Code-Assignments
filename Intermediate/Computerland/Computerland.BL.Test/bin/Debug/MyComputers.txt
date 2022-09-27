@@ -1,0 +1,2 @@
+101|Dull|D5005000|666|1|SuperMegaCool
+404|Cull|ABC10101010101|777|98|BadTimes!
