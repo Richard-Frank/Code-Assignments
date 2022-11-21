@@ -1,2 +1,2 @@
 # DEV
- Projects from the DEV folder.
+ A collection of code assignments for classes.
