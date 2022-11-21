@@ -1,2 +1,3 @@
 # DEV
- A collection of code assignments for classes.
+ A collection of code from the DEV folder.
+ 
