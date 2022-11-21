@@ -1,3 +1,3 @@
 # DEV
- A collection of code from the DEV folder.
+ A collection of code assignments from various tech classes.
  
