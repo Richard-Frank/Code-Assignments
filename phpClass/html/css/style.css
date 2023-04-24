@@ -1,0 +1,246 @@
+/* HTML css */
+body
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    font-family: "Times New Roman";
+}
+header
+{
+    /*background-color: green;*/
+    width: 100%;
+    float:left;
+    text-align: center;
+}
+
+nav
+{
+    /*background-color: red;*/
+    width: 20%;
+    float: left;
+}
+
+main
+{
+    /*background-color: yellow;*/
+    width: 60%;
+    min-height: 500px;
+    float:left;
+    font-size: large;
+}
+
+table
+{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+table tr:nth-child(even)
+{
+    background-color: whitesmoke;
+}
+table tr:nth-child(odd)
+{
+    background-color: #d1d1d1;
+}
+
+marquee
+{/*Marquee tag is VERY outdated so this error is more or less just talking down to you, as it should.*/
+    font-size: 1.9em;
+}
+
+footer
+{
+    /*background-color: blue;*/
+    width: 100%;
+    float:left;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+main img
+{
+    
+    display: block;
+    margin: 0 auto;
+    border: solid black 2px;
+}
+
+main p
+{
+    margin-top: 30px;
+    text-indent: 25px;
+}
+
+/* Menus */
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ECECEC;
+    border: 1px solid #555;
+}
+
+li a
+{
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+
+}
+
+li
+{
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li a:hover
+{/* Menu Hover */
+    background-color: #555;
+    color: white;
+}
+
+
+li:last-child
+{/* Removes the border from the bottom list item*/
+    border-bottom: none;
+}
+
+
+/*ID css*/
+#center
+{
+    text-align: center;
+}
+#dicetext
+{
+    margin-top: 15%;
+    font-size: 1.3em;
+    font-family: "Showcard Gothic";
+}
+
+/*Class css*/
+.left
+{
+    float:left;
+}
+.right
+{
+    float: right;
+}
+.center
+{
+    text-align: center;
+}
+.borderless
+{
+    border: none;
+}
+.borderless img
+{
+    border: none;
+}
+.error
+{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.success
+{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+/*CUSTOMER FORM*/
+#addcustomer form
+{
+    background-color: #403D39;
+    width: 500px;
+    margin: 0 auto;
+}
+#addcustomer legend
+{
+    background-color: #EB5E28;
+    border-bottom: 1px solid #FFFCF2;
+    border-top: 1px solid #FFFCF2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #4C956C;
+    color: #FFF;
+    margin-top: 12px;
+    padding: 0.3em 1em;
+    text-shadow: #9FBEB9 1px 1px 1px;
+    text-transform: uppercase;
+    width: 270px;
+}
+#addcustomer fieldset
+{
+    background-color: #FEFEE3;
+    border: none;
+    margin-top: 15px;
+    padding: 0.50em;
+}
+#addcustomer fieldset li
+{
+    list-style-type: none;
+    padding: 8px;
+    margin-left: 0;
+    float: right;
+    text-align: left;
+}
+#addcustomer fieldset ul
+{
+    width: 75%;
+}
+#addcustomer input[type="submit"]
+{
+    width: 8em;
+    height: 3em;
+    margin: 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#addcustomer input[type="reset"]
+{
+    margin: 5px;
+    padding: 3px;
+    font-weight: 900;
+    text-transform: uppercase;
+    float: right;
+}
+#btnDelete
+{
+    margin: 5px;
+    padding: 3px;
+    font-weight: 900;
+    text-transform: uppercase;
+    float: right;
+}
+
+#addcustomer textarea
+{
+    resize: none;
+}
+
+#addcustomer .frmcustomer
+{
+    background-color: #258844;
+}
+#addcustomer .frmaddress
+{
+    background-color: #267CAD;
+}
+#addcustomer .frmsecurity
+{
+    background-color: #88142D;
+}
